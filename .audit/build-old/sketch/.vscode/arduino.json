@@ -1,0 +1,7 @@
+#line 1 "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\ELEGOO-Smart-Robot-Car-Kit-V4.0\\SmartRobotCarV4.0_V0_20210104\\SmartRobotCarV4.0_V0_20210104\\SmartRobotCarV4.0_V0_20210104\\.vscode\\arduino.json"
+{
+    "board": "arduino:avr:uno",
+    "sketch": "SmartRobotCarV4.0_V0_2021104.ino",
+    "port": "COM13",
+    "programmer": "AVRISP mkII"
+}

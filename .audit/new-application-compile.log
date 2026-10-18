@@ -1,0 +1,7 @@
+In file included from ELEGOO-Smart-Robot-Car-Kit-V4.0-New/DeviceDriverSet.h:10:0,
+                 from ELEGOO-Smart-Robot-Car-Kit-V4.0-New/MotionControl.h:5,
+                 from ELEGOO-Smart-Robot-Car-Kit-V4.0-New/ApplicationFunctionSet.h:12,
+                 from ELEGOO-Smart-Robot-Car-Kit-V4.0-New/ApplicationFunctionSet.cpp:9:
+.audit/libraries/FastLED-master/FastLED.h:14:21: note: #pragma message: FastLED version 3.002.010
+ #    pragma message "FastLED version 3.002.010"
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~

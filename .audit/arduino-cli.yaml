@@ -1,0 +1,6 @@
+directories:
+  data: C:/Users/mauro/AppData/Local/Arduino15
+  downloads: D:/A/GIT/maurcavallin/ELEGOO-Smart-Robot-Car/.audit/downloads
+  user: D:/A/GIT/maurcavallin/ELEGOO-Smart-Robot-Car/.audit/user
+build_cache:
+  path: D:/A/GIT/maurcavallin/ELEGOO-Smart-Robot-Car/.audit/cache

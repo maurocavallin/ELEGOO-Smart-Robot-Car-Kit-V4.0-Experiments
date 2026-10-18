@@ -1,0 +1,1557 @@
+[
+  {
+    "added_include_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino"
+  },
+  {
+    "added_include_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard"
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\SmartRobotCarV4.0_V0_20210104.ino.cpp.merged",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\SmartRobotCarV4.0_V0_20210104.ino.cpp.merged.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\SmartRobotCarV4.0_V0_20210104.ino.cpp.merged",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\SmartRobotCarV4.0_V0_20210104.ino.cpp.merged.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "FastLED.h"
+  },
+  {
+    "added_include_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master"
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Servo.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src"
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\ApplicationFunctionSet_xxx0.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\DeviceDriverSet_xxx0.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\DeviceDriverSet_xxx0.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\DeviceDriverSet_xxx0.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\DeviceDriverSet_xxx0.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\I2Cdev.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\I2Cdev.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\I2Cdev.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\I2Cdev.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": "Wire.h"
+  },
+  {
+    "added_include_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src"
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\I2Cdev.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\I2Cdev.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\I2Cdev.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\I2Cdev.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\IRremote.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\IRremote.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\IRremote.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\IRremote.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\MPU6050.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\MPU6050.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\MPU6050.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\MPU6050.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\MPU6050_getdata.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\MPU6050_getdata.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\MPU6050_getdata.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\sketch\\MPU6050_getdata.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\FastLED.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\FastLED.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\FastLED.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\FastLED.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\bitswap.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\bitswap.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\bitswap.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\bitswap.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\colorpalettes.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\colorpalettes.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\colorpalettes.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\colorpalettes.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\colorutils.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\colorutils.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\colorutils.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\colorutils.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\hsv2rgb.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\hsv2rgb.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\hsv2rgb.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\hsv2rgb.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\lib8tion.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\lib8tion.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\lib8tion.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\lib8tion.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\noise.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\noise.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\noise.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\noise.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\platforms.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\platforms.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\platforms.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\platforms.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\power_mgt.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\power_mgt.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\power_mgt.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\power_mgt.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\wiring.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\wiring.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master\\wiring.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\FastLED-master\\wiring.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\avr\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\avr\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\avr\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\avr\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\esp32\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\esp32\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\esp32\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\esp32\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\mbed\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\mbed\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\mbed\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\mbed\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\megaavr\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\megaavr\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\megaavr\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\megaavr\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\nrf52\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\nrf52\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\nrf52\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\nrf52\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\renesas\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\renesas\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\renesas\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\renesas\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\sam\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\sam\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\sam\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\sam\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\samd\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\samd\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\samd\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\samd\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\stm32f4\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\stm32f4\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\stm32f4\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\stm32f4\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\xmc\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\xmc\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\xmc\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\xmc\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\zephyr\\Servo.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\zephyr\\Servo.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src\\zephyr\\Servo.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Servo\\zephyr\\Servo.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src\\Wire.cpp",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src\\Wire.cpp",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Wire\\Wire.cpp.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  },
+  {
+    "compile": {
+      "source_path": "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src\\utility\\twi.c",
+      "depfile_path": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
+    },
+    "compile_task": {
+      "args": [
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\tools\\avr-gcc\\7.3.0-atmel3.6.1-arduino7/bin/avr-g++",
+        "-c",
+        "-g",
+        "-Os",
+        "-w",
+        "-std=gnu++11",
+        "-fpermissive",
+        "-fno-exceptions",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-threadsafe-statics",
+        "-Wno-error=narrowing",
+        "-flto",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-mmcu=atmega328p",
+        "-DF_CPU=16000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_AVR_UNO",
+        "-DARDUINO_ARCH_AVR",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\cores\\arduino",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\variants\\standard",
+        "-ID:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\libraries\\FastLED-master",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\libraries\\Servo\\src",
+        "-IC:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src",
+        "C:\\Users\\mauro\\AppData\\Local\\Arduino15\\packages\\arduino\\hardware\\avr\\1.8.8\\libraries\\Wire\\src\\utility\\twi.c",
+        "-o",
+        "nul",
+        "-MMD",
+        "-MF",
+        "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car\\.audit\\build-old\\libraries\\Wire\\utility\\twi.c.libsdetect.d"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]
