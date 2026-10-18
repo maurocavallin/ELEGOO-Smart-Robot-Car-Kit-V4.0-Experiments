@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-10-18T22:17:11.8638103+02:00",
+  "port": "COM10",
+  "usb_vid": "1A86",
+  "usb_pid": "7523",
+  "device_signature": "1E950F",
+  "flash_bytes": 32768,
+  "read_1_sha256": "647AD2D9C05A940B7A5B73455ED9AF43EE7CB4C2271E7F24F17398D1719FE83D",
+  "read_2_sha256": "647AD2D9C05A940B7A5B73455ED9AF43EE7CB4C2271E7F24F17398D1719FE83D",
+  "byte_identical": true,
+  "bytes_other_than_ff": 31230,
+  "bytes_other_than_zero": 32278,
+  "first_32_bytes": "0C9463000C94801F0C94591F0C948B000C948B000C948B000C948B000C94DA21",
+  "last_32_bytes": "1150E9F7F2DF1F91089580E0E8DFEE27FF270994FFFFFFFFFFFFFFFFFFFF0404",
+  "upper_512_bytes_other_than_ff": 496,
+  "covered_address_range": "0x0000-0x7FFF as returned by bootloader",
+  "eeprom_read": false,
+  "fuses_read": false,
+  "lock_bits_read": false,
+  "writes_requested": false,
+  "erase_requested": false
+}

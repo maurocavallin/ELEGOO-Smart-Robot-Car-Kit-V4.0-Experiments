@@ -1,0 +1,25 @@
+{
+  "arguments": [
+    "-N",
+    "-C",
+    "C:/Users/mauro/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/etc/avrdude.conf",
+    "-p",
+    "m328p",
+    "-c",
+    "arduino",
+    "-P",
+    "COM10",
+    "-b",
+    "115200",
+    "-n",
+    "-D",
+    "-A",
+    "-v",
+    "-l",
+    "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car-Kit-V4.0-Experiments\\.audit\\backups\\uno-stock-20261018-221627\\flash-read-2.log",
+    "-U",
+    "flash:r:D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart-Robot-Car-Kit-V4.0-Experiments\\.audit\\backups\\uno-stock-20261018-221627\\flash-read-2.bin:r"
+  ],
+  "executable": "C:/Users/mauro/AppData/Local/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude.exe",
+  "started": "2026-10-18T22:16:42.7153744+02:00"
+}

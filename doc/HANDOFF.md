@@ -1,5 +1,19 @@
 # Handoff — ELEGOO Smart Robot Car V4.0
 
+## Aggiornamento: backup flash acquisito il 18 ottobre 2026, ore 22:17
+
+Questa sezione aggiorna le indicazioni storiche sottostanti: la radice attuale è `D:\A\GIT\maurcavallin\ELEGOO-Smart-Robot-Car-Kit-V4.0-Experiments`.
+
+L'utente ha collegato la USB dell'UNO e messo il selettore dello shield su Upload. Riferisce alimentazione delle periferiche e LED rosso lampeggiante sullo shield. Nei sorgenti precedenti un lampeggio rosso segnala tensione batteria bassa: è una spiegazione plausibile con alimentazione USB e batteria spenta, non una diagnosi verificata sul firmware stock.
+
+Su richiesta esplicita dell'utente sono state eseguite due letture flash via bootloader, entrambe riuscite. Arduino CLI rileva una sola porta USB seriale, COM10, VID:PID `1A86:7523` (CH340); AVRDUDE restituisce firma `1E 95 0F`, compatibile ATmega328P. Usati protocollo `arduino`, 115200 baud, `-N -n -D -A`, esclusivamente operazioni `-U flash:r:...:r`. Nessuna scrittura o cancellazione richiesta; ESP32 non toccata. L'apertura della porta può aver resettato l'UNO.
+
+Backup: [riepilogo e limiti](../.audit/backups/uno-stock-20261018-221627/README.md). La cartella contiene due dump raw da **32768 byte**, identici byte per byte, log completi, parametri delle due chiamate, `verification.json` e stringhe ASCII. SHA-256 di entrambi: `647AD2D9C05A940B7A5B73455ED9AF43EE7CB4C2271E7F24F17398D1719FE83D`.
+
+Intervallo restituito: `0x0000–0x7FFF`. Vettore iniziale AVR plausibile, dati non uniformi e 496 byte diversi da FF negli ultimi 512 byte, compatibili con presenza del bootloader. Non effettuata verifica indipendente via ISP né prova di ripristino. **EEPROM, fuse e lock bit non acquisiti: non è un backup completo del chip.** Le stringhe includono `error:deserializeJson` e `MPU6050_chip_id: `; nessuna versione certa identificata. Non confondere questi dump stock con la precedente build di prova in `.audit/build-old/`.
+
+Prossimo passo possibile: analizzare il dump e confrontare la regione applicativa con candidati TB6612 + MPU6050; valutare separatamente l'acquisizione EEPROM secondo il supporto effettivo del bootloader. Non è stata autorizzata alcuna scrittura del firmware.
+
 Salvato il 18 ottobre 2026. Punto di ripresa della conversazione e indice delle evidenze raccolte. Non occorre ripetere l'inventario o chiedere conferme sulle identificazioni già acquisite.
 
 ## Obiettivo e direzione concordata

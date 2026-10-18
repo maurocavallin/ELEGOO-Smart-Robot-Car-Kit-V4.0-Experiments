@@ -1,0 +1,10 @@
+H.Q,q,a,
+/_?OOO_O
+N__O,_?OK3Q
+N__O,_?OC2Q
+/#/4/D'X_
+/v/e/T/C/2/"'
+P#/4/E/V/g/x/
+F/Op@]J3
+error:deserializeJson
+MPU6050_chip_id: 

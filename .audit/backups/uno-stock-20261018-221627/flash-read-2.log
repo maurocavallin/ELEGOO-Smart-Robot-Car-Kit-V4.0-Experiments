@@ -1,0 +1,22 @@
+Avrdude version 8.0-arduino.1
+Copyright see https://github.com/avrdudes/avrdude/blob/main/AUTHORS
+
+System wide configuration file is C:\Users\mauro\AppData\Local\Arduino15\packages\arduino\tools\avrdude\8.0.0-arduino1\etc\avrdude.conf
+
+Using port            : COM10
+Using programmer      : arduino
+Setting baud rate     : 115200
+AVR part              : ATmega328P
+Programming modes     : SPM, ISP, HVPP, debugWIRE
+Programmer type       : Arduino
+Description           : Arduino bootloader using STK500 v1 protocol
+HW Version            : 3
+FW Version            : 4.4
+
+AVR device initialized and ready to accept instructions
+Device signature = 1E 95 0F (ATmega328P, ATA6614Q, LGT8F328P)
+Reading flash memory ...
+Reading | ################################################## | 100% 3.97s
+Writing 32768 bytes to output file flash-read-2.bin
+
+Avrdude done.  Thank you.
