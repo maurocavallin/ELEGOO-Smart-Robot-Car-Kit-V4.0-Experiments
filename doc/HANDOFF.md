@@ -1,5 +1,16 @@
 # Handoff — ELEGOO Smart Robot Car V4.0
 
+## Aggiornamento 19 ottobre 2026: confronto mirato stock / Traditional
+
+Workspace attuale: `D:\A\GIT\maurcavallin\ELEGOO-Smart`, ora repository Git contenitore. I percorsi delle sezioni storiche sottostanti descrivono stati precedenti. Recuperata integralmente la cartella temporanea in [`.audit/traditional-compare-20261019/`](../.audit/traditional-compare-20261019/): 352 file verificati SHA-256 rispetto agli originali, con manifest `recovery-manifest.json`. Inclusi rapporti, disassemblati, estratti N=102, log, configurazione CLI, patch e entrambe le cartelle di build con ELF/HEX. Applicata `note-confronto.patch`, quindi aggiornati i riferimenti alla copia permanente. Temporanei conservati. Non ripetere i confronti prima di consultare questi artefatti. Nessun accesso al robot o modifica dell'ESP32 autorizzati per questa ripresa.
+
+Compilate senza modifiche le varianti TB6612+MPU6050 principale 20230201 (30.988 byte flash, 1.169 RAM statica) e tutorial 20220303 (30.966 byte flash, 1.169 RAM statica), con core AVR 1.8.8, GCC 7.3.0, FastLED 3.2.10 e Servo 1.3.0. Nessuna build o HEX ufficiale incluso coincide con la regione applicativa stock.
+
+Il confronto del disassemblato conferma però che **lo stock legge D2 come velocità nel comando 102**, come il 20230201, a differenza del tutorial 20220303. Il gestore seriale a 0x34B6, lungo 2408 byte, presenta soltanto 11 istruzioni differenti, tutte indirizzi assoluti di call/jmp. Il blocco di dispatch e lettura D1/D2 coincide byte per byte. Nel codice stock riconducibile a FastLED countFPS è presente una guardia sul denominatore zero, assente nella libreria 3.2.10 inclusa: indizio concreto di una dipendenza differente, non identificazione certa della release.
+
+[Metodo, limiti e risultati del confronto](CONFRONTO_STOCK_TRADITIONAL.md). Un solo firmware Arduino stock è stato acquisito tramite due letture identiche (flash-read-1.bin e flash-read-2.bin); ESP32 non acquisita né modificata. Nessun nuovo accesso al robot o upload durante l'analisi. Per una build identica, approfondire prima la differenza FastLED; non provare versioni alla cieca.
+
+
 ## Aggiornamento: recuperata la variante tradizionale ufficiale
 
 Il 18 ottobre 2026, su richiesta dell'utente di eseguire il punto 1, scaricato il pacchetto ufficiale completo 2023.02.01 (254472550 byte), attraverso il link della pagina ELEGOO. Archivio in `.audit/downloads/ELEGOO-Smart-Robot-Car-V4.0-2023.02.01.zip`; SHA-256 `7CFDD6E0CD39C48BF070A758519497ED1B1DA92A5312F4255460A6E95CA61055`. Un secondo tentativo sul server di destinazione del redirect è terminato con archivio identico, conservato come `...-direct.zip` nella stessa cartella.

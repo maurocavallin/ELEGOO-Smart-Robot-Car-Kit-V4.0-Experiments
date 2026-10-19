@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-19",
+  "repository_head": "19f15f40ec962c764f7fbd946ceff0ccb0de46c4",
+  "stock_two_reads_identical": true,
+  "stock_full_sha256": "647ad2d9c05a940b7a5b73455ed9af43ee7cb4c2271e7f24f17398d1719fe83d",
+  "stock_last_non_ff_application_address": 30945,
+  "application_range": "0x0000-0x7DFF",
+  "bootloader_excluded": true,
+  "missing_hex_bytes_padded": 255,
+  "build": {
+    "target": "arduino:avr:uno",
+    "core": "1.8.8",
+    "fastled": "3.2.10",
+    "servo": "1.3.0",
+    "flash_bytes": 30988,
+    "static_ram_bytes": 1169,
+    "source_modified": false
+  },
+  "comparisons": [
+    {
+      "file": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart\\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\\SmartRobotCarV4.0_V1_20230201\\SmartRobotCarV4.0_V1_20230201.hex",
+      "explicit_data_bytes": 30182,
+      "last_non_ff_application_address": 30181,
+      "application_identical_to_stock": false,
+      "application_identical_to_local_build": false,
+      "first_difference_to_stock": 6,
+      "application_sha256": "456f1c03a4d5e90a065ade4c41ae66321736487bb48fbf2dd83fea9d436b9bc3",
+      "markers": {
+        "error:deserializeJson": 30092,
+        "MPU6050_chip_id: ": 30163
+      }
+    },
+    {
+      "file": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart\\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\\02 Manual & Main Code & APP\\02 Main Program   (Arduino UNO)\\TB6612 & MPU6050\\SmartRobotCarV4.0_V1_20230201\\SmartRobotCarV4.0_V1_20230201.hex",
+      "explicit_data_bytes": 30182,
+      "last_non_ff_application_address": 30181,
+      "application_identical_to_stock": false,
+      "application_identical_to_local_build": false,
+      "first_difference_to_stock": 6,
+      "application_sha256": "456f1c03a4d5e90a065ade4c41ae66321736487bb48fbf2dd83fea9d436b9bc3",
+      "markers": {
+        "error:deserializeJson": 30092,
+        "MPU6050_chip_id: ": 30163
+      }
+    },
+    {
+      "file": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart\\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\\02 Manual & Main Code & APP\\02 Main Program   (Arduino UNO)\\TB6612 & QMI8658C\\SmartRobotCarV4.0_V2_20220322\\SmartRobotCarV4.0_V2_20220322.ino.standard.hex",
+      "explicit_data_bytes": 30316,
+      "last_non_ff_application_address": 30315,
+      "application_identical_to_stock": false,
+      "application_identical_to_local_build": false,
+      "first_difference_to_stock": 6,
+      "application_sha256": "8baef5b173ef793d60b7ebd8b027f8f330150c61749e0d02f4b037c989425a5d",
+      "markers": {
+        "error:deserializeJson": 30188,
+        "MPU6050_chip_id: ": -1
+      }
+    },
+    {
+      "file": "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart\\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\\03 Tutorial & Code\\08 SmartRobotCarV4.0_DIY and Program on APP\\SmartRobotCarV4.0_V1_20220303\\SmartRobotCarV4.0_V1_20220303.ino.standard.hex",
+      "explicit_data_bytes": 30848,
+      "last_non_ff_application_address": 30847,
+      "application_identical_to_stock": false,
+      "application_identical_to_local_build": false,
+      "first_difference_to_stock": 6,
+      "application_sha256": "0320bb3bb1951c9d84d138b9142129d7ca557c849f61f66016dc292fec041555",
+      "markers": {
+        "error:deserializeJson": 30758,
+        "MPU6050_chip_id: ": 30829
+      }
+    },
+    {
+      "file": "C:\\Users\\mauro\\AppData\\Local\\Temp\\elegoo-traditional-compare-20261019\\build\\SmartRobotCarV4.0_V1_20230201.ino.hex",
+      "explicit_data_bytes": 30988,
+      "last_non_ff_application_address": 30987,
+      "application_identical_to_stock": false,
+      "application_identical_to_local_build": true,
+      "first_difference_to_stock": 196,
+      "application_sha256": "218029385e9e8f9266a39a50c6a71466fdb545b1c4d817325931d2de45fc4c84",
+      "markers": {
+        "error:deserializeJson": 30898,
+        "MPU6050_chip_id: ": 30969
+      }
+    },
+    {
+      "file": "C:\\Users\\mauro\\AppData\\Local\\Temp\\elegoo-traditional-compare-20261019\\build-20220303\\SmartRobotCarV4.0_V1_20220303.ino.hex",
+      "explicit_data_bytes": 30966,
+      "application_identical_to_stock": false,
+      "first_difference_to_stock": 6,
+      "application_sha256": "59c38d96de00502ee95d6a4521dfc74e9a2b52f084b2a86758557f3c00c24db4",
+      "flash_bytes": 30966,
+      "static_ram_bytes": 1169,
+      "markers": {
+        "error:deserializeJson": 30876,
+        "MPU6050_chip_id: ": 30947
+      }
+    }
+  ]
+}

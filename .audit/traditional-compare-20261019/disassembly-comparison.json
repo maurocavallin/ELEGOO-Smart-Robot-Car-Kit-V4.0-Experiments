@@ -1,0 +1,78 @@
+{
+  "comparison_date": "2026-10-19",
+  "stock_sha256": "647ad2d9c05a940b7a5b73455ed9af43ee7cb4c2271e7f24f17398d1719fe83d",
+  "application_build": "Traditional/SmartRobotCarV4.0_V1_20230201",
+  "serial_function_start": "0x34B6",
+  "serial_function_end_exclusive": "0x3E1E",
+  "serial_function_bytes": 2408,
+  "instruction_entries": 984,
+  "different_instructions": [
+    {
+      "address": "0x3742",
+      "build": "call\t0x6d8c",
+      "stock": "call\t0x6d62"
+    },
+    {
+      "address": "0x3756",
+      "build": "call\t0x67e6",
+      "stock": "call\t0x67bc"
+    },
+    {
+      "address": "0x3764",
+      "build": "call\t0x6d20",
+      "stock": "call\t0x6cf6"
+    },
+    {
+      "address": "0x385c",
+      "build": "jmp\t0x6e1e",
+      "stock": "jmp\t0x6df4"
+    },
+    {
+      "address": "0x38f0",
+      "build": "call\t0xc0e",
+      "stock": "call\t0x83e"
+    },
+    {
+      "address": "0x3b46",
+      "build": "call\t0x72a4",
+      "stock": "call\t0x727a"
+    },
+    {
+      "address": "0x3b70",
+      "build": "call\t0xc0e",
+      "stock": "call\t0x83e"
+    },
+    {
+      "address": "0x3bb8",
+      "build": "call\t0x72a4",
+      "stock": "call\t0x727a"
+    },
+    {
+      "address": "0x3be2",
+      "build": "call\t0xc0e",
+      "stock": "call\t0x83e"
+    },
+    {
+      "address": "0x3d50",
+      "build": "call\t0x18c2",
+      "stock": "call\t0x153e"
+    },
+    {
+      "address": "0x3dbc",
+      "build": "call\t0x18c2",
+      "stock": "call\t0x153e"
+    }
+  ],
+  "differences_only_absolute_call_or_jump_targets": true,
+  "n102_dispatch_and_body_range_identical": "0x380C..0x385B",
+  "json_d1_ram_address": "0x01CF",
+  "json_d2_ram_address": "0x01D2",
+  "stock_initialized_data_flash_start": "0x77D6",
+  "n102_speed_store": "0x3848: sts 0x056C,r24",
+  "n102_speed_field": "Application_FunctionSet.Rocker_CarSpeed (offset 0x1F in current build)",
+  "source_20220303_has_d2_speed_update": false,
+  "source_20230201_has_d2_speed_update": true,
+  "stock_has_d2_speed_update": true,
+  "conclusion": "Stock shares the N102 speed update and serial-handler instruction structure of the 20230201 source; exact whole-firmware identity not established.",
+  "additional_dependency_evidence": "Stock block matching CFastLED::countFPS guards a zero elapsed-time denominator; bundled FastLED 3.2.10 source lacks that guard. Dependency implementation differs; exact stock FastLED version not identified."
+}

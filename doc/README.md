@@ -4,6 +4,8 @@ Questa cartella raccoglie le scoperte sul kit fisico e il confronto tra i due re
 
 ## Documenti
 
+- [Confronto stock / Traditional](CONFRONTO_STOCK_TRADITIONAL.md): build, confronto del disassemblato e verifica del comando joystick 102.
+
 - [HANDOFF](HANDOFF.md): stato completo della sessione e istruzioni per riprendere dal backup Arduino stock.
 - [Hardware del nostro kit](HARDWARE.md): sigle riferite dall'utente, schemi allegati, differenze e identificazioni ancora aperte.
 - [Analisi firmware](ANALISI_FIRMWARE.md): struttura dei sorgenti, confronto non-New/New, compilazioni eseguite e problemi rilevati.

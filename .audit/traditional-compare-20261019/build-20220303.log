@@ -1,0 +1,70 @@
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\I2Cdev.cpp:64:14: warning: #warning Using current Arduino IDE with Wire library is functionally limiting. [-Wcpp]
+             #warning Using current Arduino IDE with Wire library is functionally limiting.
+              ^~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\I2Cdev.cpp:65:14: warning: #warning Arduino IDE v1.0.1+ with I2CDEV_BUILTIN_FASTWIRE implementation is recommended. [-Wcpp]
+             #warning Arduino IDE v1.0.1+ with I2CDEV_BUILTIN_FASTWIRE implementation is recommended.
+              ^~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\I2Cdev.cpp:66:14: warning: #warning This I2Cdev implementation does not support: [-Wcpp]
+             #warning This I2Cdev implementation does not support:
+              ^~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\I2Cdev.cpp:67:14: warning: #warning - Timeout detection (some Wire requests block forever) [-Wcpp]
+             #warning - Timeout detection (some Wire requests block forever)
+              ^~~~~~~
+In file included from D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\DeviceDriverSet_xxx0.h:15:0,
+                 from D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\DeviceDriverSet_xxx0.cpp:9:
+D:\A\GIT\maurcavallin\ELEGOO-Smart\.audit\libraries\FastLED-master/FastLED.h:14:21: note: #pragma message: FastLED version 3.002.010
+ #    pragma message "FastLED version 3.002.010"
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\DeviceDriverSet_xxx0.cpp: In member function 'void DeviceDriverSet_Motor::DeviceDriverSet_Motor_control(boolean, uint8_t, boolean, uint8_t, boolean)':
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\DeviceDriverSet_xxx0.cpp:229:7: warning: case label value exceeds maximum value for type
+       case direction_void:
+       ^~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\DeviceDriverSet_xxx0.cpp:218:14: warning: switch condition has boolean value [-Wswitch-bool]
+       switch (direction_A) //movement direction control
+              ^
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\DeviceDriverSet_xxx0.cpp:252:7: warning: case label value exceeds maximum value for type
+       case direction_void:
+       ^~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\DeviceDriverSet_xxx0.cpp:241:14: warning: switch condition has boolean value [-Wswitch-bool]
+       switch (direction_B)
+              ^
+In file included from D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\DeviceDriverSet_xxx0.h:15:0,
+                 from D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:14:
+D:\A\GIT\maurcavallin\ELEGOO-Smart\.audit\libraries\FastLED-master/FastLED.h:14:21: note: #pragma message: FastLED version 3.002.010
+ #    pragma message "FastLED version 3.002.010"
+                     ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp: In function 'bool ApplicationFunctionSet_SmartRobotCarLeaveTheGround()':
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:127:13: warning: 'bool ApplicationFunctionSet_SmartRobotCarLeaveTheGround()' was declared 'extern' and later 'static' [-fpermissive]
+ static bool ApplicationFunctionSet_SmartRobotCarLeaveTheGround(void)
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:100:6: note: previous declaration of 'bool ApplicationFunctionSet_SmartRobotCarLeaveTheGround()'
+ bool ApplicationFunctionSet_SmartRobotCarLeaveTheGround(void);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp: In function 'void ApplicationFunctionSet_SmartRobotCarLinearMotionControl(SmartRobotCarMotionControl, uint8_t, uint8_t, uint8_t, uint8_t)':
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:151:13: warning: 'void ApplicationFunctionSet_SmartRobotCarLinearMotionControl(SmartRobotCarMotionControl, uint8_t, uint8_t, uint8_t, uint8_t)' was declared 'extern' and later 'static' [-fpermissive]
+ static void ApplicationFunctionSet_SmartRobotCarLinearMotionControl(SmartRobotCarMotionControl direction, uint8_t directionRecord, uint8_t speed, uint8_t Kp, uint8_t UpperLimit)
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:101:6: note: previous declaration of 'void ApplicationFunctionSet_SmartRobotCarLinearMotionControl(SmartRobotCarMotionControl, uint8_t, uint8_t, uint8_t, uint8_t)'
+ void ApplicationFunctionSet_SmartRobotCarLinearMotionControl(SmartRobotCarMotionControl direction, uint8_t directionRecord, uint8_t speed, uint8_t Kp, uint8_t UpperLimit);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp: In function 'void ApplicationFunctionSet_SmartRobotCarMotionControl(SmartRobotCarMotionControl, uint8_t)':
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:205:13: warning: 'void ApplicationFunctionSet_SmartRobotCarMotionControl(SmartRobotCarMotionControl, uint8_t)' was declared 'extern' and later 'static' [-fpermissive]
+ static void ApplicationFunctionSet_SmartRobotCarMotionControl(SmartRobotCarMotionControl direction, uint8_t is_speed)
+             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:102:6: note: previous declaration of 'void ApplicationFunctionSet_SmartRobotCarMotionControl(SmartRobotCarMotionControl, uint8_t)'
+ void ApplicationFunctionSet_SmartRobotCarMotionControl(SmartRobotCarMotionControl direction, uint8_t is_speed);
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp: In member function 'void ApplicationFunctionSet::CMD_UltrasoundModuleStatus_xxx0(uint8_t)':
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:1519:48: warning: invalid conversion from 'volatile uint16_t* {aka volatile unsigned int*}' to 'uint16_t* {aka unsigned int*}' [-fpermissive]
+   AppULTRASONIC.DeviceDriverSet_ULTRASONIC_Get(&UltrasoundData_cm /*out*/); //Ultrasonic data
+                                                ^~~~~~~~~~~~~~~~~~
+In file included from D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:14:0:
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\DeviceDriverSet_xxx0.h:132:8: note:   initializing argument 1 of 'void DeviceDriverSet_ULTRASONIC::DeviceDriverSet_ULTRASONIC_Get(uint16_t*)'
+   void DeviceDriverSet_ULTRASONIC_Get(uint16_t *ULTRASONIC_Get /*out*/);
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp: In member function 'void ApplicationFunctionSet::ApplicationFunctionSet_SerialPortDataAnalysis()':
+D:\A\GIT\maurcavallin\ELEGOO-Smart\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\03 Tutorial & Code\08 SmartRobotCarV4.0_DIY and Program on APP\SmartRobotCarV4.0_V1_20220303\ApplicationFunctionSet_xxx0.cpp:1774:15: warning: invalid conversion from 'const char*' to 'uint8_t {aka unsigned char}' [-fpermissive]
+   uint8_t c = "";
+               ^~
+Sketch uses 30966 bytes (96%) of program storage space. Maximum is 32256 bytes.
+Global variables use 1169 bytes (57%) of dynamic memory, leaving 879 bytes for local variables. Maximum is 2048 bytes.

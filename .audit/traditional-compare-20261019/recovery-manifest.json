@@ -1,0 +1,1762 @@
+[
+  {
+    "path": "arduino-cli.yaml",
+    "bytes": 334,
+    "sha256": "76B85A29E5E12A731170E20A0DA264C6B66301AC1C6A9B8B8DEE1C4159B52C7F"
+  },
+  {
+    "path": "build-20220303-n102.asm",
+    "bytes": 2083,
+    "sha256": "20D21BE5448ABE491E3FD2182C4CA3E8ACF312B76096C4868475BB9B3A06B4E2"
+  },
+  {
+    "path": "build-20220303.asm",
+    "bytes": 744973,
+    "sha256": "DA4FF2966DB4E62E0A63E5978E8B316AD199D8AB5C25A1C992435FD009A897BF"
+  },
+  {
+    "path": "build-20220303.log",
+    "bytes": 10994,
+    "sha256": "487EE4177D0748969E3681B074D164B7B5B9A3FC7706FFF89A37D4355BE005C3"
+  },
+  {
+    "path": "build-20230201-n102.asm",
+    "bytes": 2846,
+    "sha256": "D84308EB0552E60646FDDA2AF00BB9CA12181E6DA69F3C4FA2A89D6424516EB2"
+  },
+  {
+    "path": "build-20230201.asm",
+    "bytes": 745725,
+    "sha256": "3D5B93B9E867FBFAB0A00503615257BDC1E9F36B5DE48AC709D65F9F08D061CA"
+  },
+  {
+    "path": "build.log",
+    "bytes": 9230,
+    "sha256": "45C1C17DCD4CD040EF4008E3AC46328A707AC8A456AFBEF2CB72543E307F22BD"
+  },
+  {
+    "path": "comparison.json",
+    "bytes": 4462,
+    "sha256": "DDF58C53F07505E82B33224857C3E540C4AA274F5116845675F0022B5D57CE08"
+  },
+  {
+    "path": "CONFRONTO.md",
+    "bytes": 2577,
+    "sha256": "4C882C69B57F7C736C60BEE89CBB30A33590BD8ED51FFB9DD0A28AE04DC4EC06"
+  },
+  {
+    "path": "DISASSEMBLATO.md",
+    "bytes": 4267,
+    "sha256": "F48067F619E101A8281A87196342D1730CD3C74AFD3C90D74FD8B649AC74D787"
+  },
+  {
+    "path": "disassembly-comparison.json",
+    "bytes": 2478,
+    "sha256": "B9F75EC24A65A74C821899DA10F537EECEB1E01146F6E07973D5E495C6DDEB09"
+  },
+  {
+    "path": "note-confronto.patch",
+    "bytes": 8221,
+    "sha256": "F44775F9C5B51E613EDED80C6BB3E5BC119B03A82DE711135115BDDCC9175AB2"
+  },
+  {
+    "path": "stock-n102.asm",
+    "bytes": 1458,
+    "sha256": "FB2A1F4735091D2B2CBA1EA156B21F053AC81CB5E7123460830C2CFDFCE41EBA"
+  },
+  {
+    "path": "stock.asm",
+    "bytes": 598898,
+    "sha256": "D3DC3518C7A84404781BC7F66EE6BC62ABADDE32F75CB720ED006C4B7ABFAC2D"
+  },
+  {
+    "path": "build\\build.options.json",
+    "bytes": 822,
+    "sha256": "14ACFA2EC53EE7FF1CE9D6AF985BF30CBFC74CDA5CDBD40CC1D9A6C8A674F7E2"
+  },
+  {
+    "path": "build\\compile_commands.json",
+    "bytes": 69065,
+    "sha256": "F84D90F8AEE60EA83F1E612F66E36910E1C74C8848169A6EC2CAE91DB7DBEC42"
+  },
+  {
+    "path": "build\\includes.cache",
+    "bytes": 60463,
+    "sha256": "E3F87912D61B6038E37AC607600E5FECF79F93A60326DFD777AA3F9B0F314B18"
+  },
+  {
+    "path": "build\\libraries.cache",
+    "bytes": 465,
+    "sha256": "1D8B93E98285CF938EEAB6C732BBB17D5E52452ADE6C2F5545BFB05EF1A24E9A"
+  },
+  {
+    "path": "build\\SmartRobotCarV4.0_V1_20230201.ino.eep",
+    "bytes": 13,
+    "sha256": "788E5FFC44AE4EE912FE01F495951F96B0ACCD5705E184DCAEA197D8B64856A6"
+  },
+  {
+    "path": "build\\SmartRobotCarV4.0_V1_20230201.ino.elf",
+    "bytes": 239020,
+    "sha256": "0B1A2C8A3DBCD13E5EB23240BDD6929E0600D68FB3870DA31CB2D17CE23DC313"
+  },
+  {
+    "path": "build\\SmartRobotCarV4.0_V1_20230201.ino.hex",
+    "bytes": 87170,
+    "sha256": "92BBBF2D49A9A3F5D3A09CE876A26DDC07051536CE61ECD843458F9E5CE57501"
+  },
+  {
+    "path": "build\\SmartRobotCarV4.0_V1_20230201.ino.with_bootloader.bin",
+    "bytes": 32768,
+    "sha256": "39410095324C76BC1F67E18E63AC3B66D3F01C49A2FCB86EC904BEC1569C20C6"
+  },
+  {
+    "path": "build\\SmartRobotCarV4.0_V1_20230201.ino.with_bootloader.hex",
+    "bytes": 86648,
+    "sha256": "94D05139CEDD4CA1836FF99DC8782F029FB2F7F0EB3B3B95540BFFEAC4250E14"
+  },
+  {
+    "path": "build\\core\\abi.cpp.d",
+    "bytes": 194,
+    "sha256": "0E0704C4F7447AFD00EE8EA4310EE2A354F60A6FC04F9A87ABBD6C35304B71AA"
+  },
+  {
+    "path": "build\\core\\abi.cpp.o",
+    "bytes": 4140,
+    "sha256": "4C474590AE80B9DFD05305BC073D143E81FEB65967B350ED5FF4FA6B127D3EC6"
+  },
+  {
+    "path": "build\\core\\CDC.cpp.d",
+    "bytes": 1240,
+    "sha256": "005404A9FF1B128F84005D7FF39A387BA48726ECEE385611E3F66F91EC8753D2"
+  },
+  {
+    "path": "build\\core\\CDC.cpp.o",
+    "bytes": 1832,
+    "sha256": "29E2E0D8236941CD0C70718947798F324C3F76257A84856D9EC95190E697B9DC"
+  },
+  {
+    "path": "build\\core\\core.a",
+    "bytes": 347920,
+    "sha256": "E20DE1898948EF8255E70037E1E35239892D13CD5C84839F8E30C643A804080F"
+  },
+  {
+    "path": "build\\core\\HardwareSerial.cpp.d",
+    "bytes": 1490,
+    "sha256": "6F62F6419C393ABCCF31CCF9B992CD8AEB2614A900B6BCB0BE4489484C16324C"
+  },
+  {
+    "path": "build\\core\\HardwareSerial.cpp.o",
+    "bytes": 20316,
+    "sha256": "94E96BB31A115D454BD6C3EB1CFF547C809C9C22F5F3EA7637547C810FC77DD5"
+  },
+  {
+    "path": "build\\core\\HardwareSerial0.cpp.d",
+    "bytes": 1492,
+    "sha256": "9B36B25C566AFEE466E8806D8341FCCF93442F3AE334B96F6CF5C4515F4FFCD8"
+  },
+  {
+    "path": "build\\core\\HardwareSerial0.cpp.o",
+    "bytes": 13216,
+    "sha256": "7030D0B5C03DB7D0206A3F0335EEAE4C267F3646E46C4E9F2A98887ECFEB61A1"
+  },
+  {
+    "path": "build\\core\\HardwareSerial1.cpp.d",
+    "bytes": 1492,
+    "sha256": "CA05206894A2BD792944CBD62E2737B99C1A450B51BE97264CBA06D00B314220"
+  },
+  {
+    "path": "build\\core\\HardwareSerial1.cpp.o",
+    "bytes": 1844,
+    "sha256": "40C08C6DFB3C4C1D43E371F820488D32A990FB4831AD5B64E9DD1A8C32744562"
+  },
+  {
+    "path": "build\\core\\HardwareSerial2.cpp.d",
+    "bytes": 1492,
+    "sha256": "F01ED36D29BB1E754D689E11D7E3A670B477BCDF485CA42B07B11B409375B90A"
+  },
+  {
+    "path": "build\\core\\HardwareSerial2.cpp.o",
+    "bytes": 1844,
+    "sha256": "725165A5B2D18C534B01FE75F32D27EE82FF77C0E34BCBB83AC30A23886FD93E"
+  },
+  {
+    "path": "build\\core\\HardwareSerial3.cpp.d",
+    "bytes": 1492,
+    "sha256": "192741F9F32E0B3A262029B3EC0C163985CBF14BEC9DB8269D9B3EEE4DF061DB"
+  },
+  {
+    "path": "build\\core\\HardwareSerial3.cpp.o",
+    "bytes": 1844,
+    "sha256": "7B0A81EAB17683A8557401E81C961C966D55CD3CF47583D598F61A10946936E5"
+  },
+  {
+    "path": "build\\core\\hooks.c.d",
+    "bytes": 194,
+    "sha256": "1653C8E59CFC10AB5E3DDAC5AB12ECFA8D7F4F88F42C315A6FEA41629854981C"
+  },
+  {
+    "path": "build\\core\\hooks.c.o",
+    "bytes": 2996,
+    "sha256": "D97F721D252DF106D8819648CCD262BCFBE1A60EE139C07FA5A89D45E6936CFD"
+  },
+  {
+    "path": "build\\core\\IPAddress.cpp.d",
+    "bytes": 1460,
+    "sha256": "65ECF01E8C78AD930DD3878B575CF3C0139C35586D2E8B8659FE587F2561A6FD"
+  },
+  {
+    "path": "build\\core\\IPAddress.cpp.o",
+    "bytes": 17824,
+    "sha256": "6E535C0EC2318E95950E6F91C159DB516D0700C4892BD39447DDEF896AE672FC"
+  },
+  {
+    "path": "build\\core\\main.cpp.d",
+    "bytes": 1345,
+    "sha256": "027D92CA50EB76B2E31A02341F74E41F7CF8B262285FDA63D29B9374A175C02C"
+  },
+  {
+    "path": "build\\core\\main.cpp.o",
+    "bytes": 4776,
+    "sha256": "196C668EE8BCA07598FA1B13372C0061A6B2E5923628F39B8D1FEC711FA03AC6"
+  },
+  {
+    "path": "build\\core\\new.cpp.d",
+    "bytes": 390,
+    "sha256": "88EF6CE4C4015AC6806EAA044087947A92A7BD9594C2BD85E759108F98711D97"
+  },
+  {
+    "path": "build\\core\\new.cpp.o",
+    "bytes": 11164,
+    "sha256": "7E604B3760B19706E1CB54DC80B852B48F7228674C99B45FE755FB8296829A21"
+  },
+  {
+    "path": "build\\core\\PluggableUSB.cpp.d",
+    "bytes": 1366,
+    "sha256": "628C417B68A12B765BB314DC4FED00C7E35CDD635849071B40EF34306CF0E2E9"
+  },
+  {
+    "path": "build\\core\\PluggableUSB.cpp.o",
+    "bytes": 1840,
+    "sha256": "9B2F855D9BEA8828D1DE5CA3AA04F0113DD023AC6A56909AB43287E6F4D2F1DF"
+  },
+  {
+    "path": "build\\core\\Print.cpp.d",
+    "bytes": 1244,
+    "sha256": "8FB5BFD434DB5B37A75225B619ACA721C6B977C38D19DEF68CDBC74B9DA643C0"
+  },
+  {
+    "path": "build\\core\\Print.cpp.o",
+    "bytes": 37680,
+    "sha256": "9557D60FC0A2999F15B4417B89F2F09150AAE37778BD8DBADCB7487B7D1F9B42"
+  },
+  {
+    "path": "build\\core\\Stream.cpp.d",
+    "bytes": 1246,
+    "sha256": "DEE5EEDDC2F588369A8843568D8E46EA7CC0ADCAF9CF4194362462E4ADA1D579"
+  },
+  {
+    "path": "build\\core\\Stream.cpp.o",
+    "bytes": 27308,
+    "sha256": "38F99FE8D2D4CAC90468753D59DE0C2E861468A34863FFD32A661388049E60CD"
+  },
+  {
+    "path": "build\\core\\Tone.cpp.d",
+    "bytes": 1242,
+    "sha256": "CB85A5691F8A8A61052CA621CE1F5F024C79B45E23893B1B8B7BA8269850D63F"
+  },
+  {
+    "path": "build\\core\\Tone.cpp.o",
+    "bytes": 16956,
+    "sha256": "628924DA414C738886BBCA8393FC9679CC316CB484C552B3CAF003AA48B17642"
+  },
+  {
+    "path": "build\\core\\USBCore.cpp.d",
+    "bytes": 1356,
+    "sha256": "5D48D128EED6B7999DD80AD528213FA114836A3F346CE644218C78F710FDB1DE"
+  },
+  {
+    "path": "build\\core\\USBCore.cpp.o",
+    "bytes": 1836,
+    "sha256": "0A659C05162B24D97E18A5095C6DAE6B31B5D0EAFD48C49D33642CDCBADCAEFD"
+  },
+  {
+    "path": "build\\core\\WInterrupts.c.d",
+    "bytes": 633,
+    "sha256": "B28DD76BF9045E3197F1CF2EC3FC282FF5DF9A2AA08DCD38E3F90135F312BAB9"
+  },
+  {
+    "path": "build\\core\\WInterrupts.c.o",
+    "bytes": 8828,
+    "sha256": "D168F6A464842346C2BC2AB961AD2BE72A18BE1DCFD311DE57B74D3AAE60AF73"
+  },
+  {
+    "path": "build\\core\\wiring_analog.c.d",
+    "bytes": 637,
+    "sha256": "F6170707805285CC87FD4400E9934696096E18BA9E093C2F45DF263A2EF9E900"
+  },
+  {
+    "path": "build\\core\\wiring_analog.c.o",
+    "bytes": 8164,
+    "sha256": "2E95A708FC125CA2C89E95012A8A5E473B332FA45C14FF327ECD652AC4F833B2"
+  },
+  {
+    "path": "build\\core\\wiring_digital.c.d",
+    "bytes": 639,
+    "sha256": "8789256986977734276A01C09BF0419992BBA42D96DD6CFEBCE0EAB3265B9A9C"
+  },
+  {
+    "path": "build\\core\\wiring_digital.c.o",
+    "bytes": 14108,
+    "sha256": "34E62D0EFE323863FC9F12FAF48B416BDE15F699730FC70CAE734CFEDC4399B9"
+  },
+  {
+    "path": "build\\core\\wiring_pulse.c.d",
+    "bytes": 635,
+    "sha256": "1ACFD3EE83C9552AC3AC8A267F2C65E2F16AA167E2D2BE70AC77CBF6EBBA3559"
+  },
+  {
+    "path": "build\\core\\wiring_pulse.c.o",
+    "bytes": 7948,
+    "sha256": "1935340CB73ED63073B014DA40BEAFD9318D7914EAB197BCD491DDA546E07840"
+  },
+  {
+    "path": "build\\core\\wiring_pulse.S.d",
+    "bytes": 208,
+    "sha256": "79ABF8370B54E4C9432A24D8B18AACD7CF2A680CC80DE21CE82B34BD93455EB9"
+  },
+  {
+    "path": "build\\core\\wiring_pulse.S.o",
+    "bytes": 2888,
+    "sha256": "DB19EB0AE9844535C6E4A08ABC367C370472A98A8B74321AD75B1F22ADE54102"
+  },
+  {
+    "path": "build\\core\\wiring_shift.c.d",
+    "bytes": 635,
+    "sha256": "210D6A06D1D73CDEF8F8A0D2681A7C8646733E99D0C8AF09BE8CC1DC8F296029"
+  },
+  {
+    "path": "build\\core\\wiring_shift.c.o",
+    "bytes": 5360,
+    "sha256": "C8D713159D28475A3BAFA9B9810AD5127446BD19D7CC57BC1D5A79E5280C6D47"
+  },
+  {
+    "path": "build\\core\\wiring.c.d",
+    "bytes": 623,
+    "sha256": "0091968C2C3A75867417EC912C50489FB1FA71700ADF6AF754588C227E4343EA"
+  },
+  {
+    "path": "build\\core\\wiring.c.o",
+    "bytes": 10036,
+    "sha256": "9267EBDAA8928D0130CB121441E7EF8B4DFC4693EFFD8AE35B30A80CE77B9920"
+  },
+  {
+    "path": "build\\core\\WMath.cpp.d",
+    "bytes": 198,
+    "sha256": "2E40C4DFA7DFC18D7F6DB0B06E9199A53344DAC1960635691FB89B461F3CD40D"
+  },
+  {
+    "path": "build\\core\\WMath.cpp.o",
+    "bytes": 7532,
+    "sha256": "6E0F1C5FD1AAD1C791567AE3E88C3321E088B0811C42B4A50A697494B763E0D4"
+  },
+  {
+    "path": "build\\core\\WString.cpp.d",
+    "bytes": 305,
+    "sha256": "481E1ACA3CCF2104835FE74211D2C93BFDE5EDC1FE9867D26DF27D3C56C0D7E8"
+  },
+  {
+    "path": "build\\core\\WString.cpp.o",
+    "bytes": 107676,
+    "sha256": "EB61AD6889AD8F82563B35DCF6407CAEC2A4243B6CB993815827FA98F3509407"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\bitswap.cpp.d",
+    "bytes": 4464,
+    "sha256": "F1A5C6E576F517C8E9B73B0DD9F018B7B81106F3C01659CAC242343EDD0C5196"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\bitswap.cpp.libsdetect.d",
+    "bytes": 4359,
+    "sha256": "37062B666CDA63A9516D5696C26BFC7A775B7847F85BF3DC57C28C050317636B"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\bitswap.cpp.o",
+    "bytes": 4020,
+    "sha256": "21646B5AFF4F0882D5EAF9F839243A9AB74C18158E28F2C20E99FD220540ABDF"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\colorpalettes.cpp.d",
+    "bytes": 4476,
+    "sha256": "7667BD31F2A0038D718F0FE818498E812B9C1647AA469CC8A69746162E3B3C8E"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\colorpalettes.cpp.libsdetect.d",
+    "bytes": 4371,
+    "sha256": "D1DEFC02958AD0958C81D868C67252B904B9DC5C23081DD0A049C52D25577B4E"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\colorpalettes.cpp.o",
+    "bytes": 7840,
+    "sha256": "4591329DD3F37C87726D4E56BECA34CAE1856B90BF0EB8E9F7CCDAB736F379E0"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\colorutils.cpp.d",
+    "bytes": 4470,
+    "sha256": "B6A440551472190083A51A633F84A2B867B7CCCBF464D67CE12A03823E0B390A"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\colorutils.cpp.libsdetect.d",
+    "bytes": 4365,
+    "sha256": "5D25CCE08F2DC392BF5F1D1E04BA5CB47D376FF81B14F2C3C0C843780E0BBCB5"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\colorutils.cpp.o",
+    "bytes": 131344,
+    "sha256": "F332E7C3127A082165F1F5C4120521648F9427642A6F45E7BD8CCB04BE6AA637"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\FastLED.cpp.d",
+    "bytes": 4464,
+    "sha256": "70C1730C6DBC1077A4AA4B3CB236EE109B645EA2EEBA21AF84FC5AEAA6376D2C"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\FastLED.cpp.libsdetect.d",
+    "bytes": 4359,
+    "sha256": "E922383974CA8B7E73C78B8814A2367727FC1418054CEE0D1E8FD44CF0E9675A"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\FastLED.cpp.o",
+    "bytes": 42912,
+    "sha256": "8DC97AAE1589B472FDA18567EF3DEDDD536C98ED8C02D4EAF5F03F9D495D799D"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\hsv2rgb.cpp.d",
+    "bytes": 4464,
+    "sha256": "B7D860DD7D6C07AC0E4750D3D24A74BAB0B5652B68FEA5E760B51628C041DBAC"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\hsv2rgb.cpp.libsdetect.d",
+    "bytes": 4359,
+    "sha256": "42A9156A74F6154BAA6EE39509CD98DE6973E30047340E76B3F549AD2FA2FC9E"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\hsv2rgb.cpp.o",
+    "bytes": 35412,
+    "sha256": "591B84BA2817A61FC75CF85A1DB2C927E1E9A2180B373F7586CE0C7D45DE6D14"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\lib8tion.cpp.d",
+    "bytes": 4466,
+    "sha256": "1EA852E2315B0BFE5BFF0054609AC4CC72DA4615824C6029E007EAC742E29181"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\lib8tion.cpp.libsdetect.d",
+    "bytes": 4361,
+    "sha256": "611895405E575C8E6DC373545F061C84B7D2A2EE6A5200B114684974A5C97011"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\lib8tion.cpp.o",
+    "bytes": 6224,
+    "sha256": "071481D771D6530EA98F48F8157BFD3306091A670464A364C748C59A7AF6118A"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\noise.cpp.d",
+    "bytes": 4460,
+    "sha256": "E601DE5739DB7197535CE2D5481CC44553A95515F3CD9E6C6382206847E21CB9"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\noise.cpp.libsdetect.d",
+    "bytes": 4355,
+    "sha256": "E0720B3C5A53464D05BD1144B40695B13C15793C0791C3BEA573F0DE59CF2A69"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\noise.cpp.o",
+    "bytes": 112400,
+    "sha256": "2E3B08E87F545E78F04B16889F73C30A32DF4C674B1BD465FEA873051C8487DC"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\platforms.cpp.d",
+    "bytes": 204,
+    "sha256": "16F5AF83B406418CF32F9A823CD5936756010E8D4A8D9481E7950C91F6F72347"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\platforms.cpp.libsdetect.d",
+    "bytes": 99,
+    "sha256": "F7F9934C39093BB17CEB40DB56128FCEAEE24BD125D601FF3BA7903E0437A6FE"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\platforms.cpp.o",
+    "bytes": 1836,
+    "sha256": "A2FAFEBFCF6FB63A22D09B659C28E7922A20EBA4DFA314BD732986C149C5C549"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\power_mgt.cpp.d",
+    "bytes": 4468,
+    "sha256": "697DD09817A688AFDDB8C7A91F319C845ADE826D5C0502BAFFD8D419234BFD3B"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\power_mgt.cpp.libsdetect.d",
+    "bytes": 4363,
+    "sha256": "CCE10C45339887D12AA48CC4CFAA0A57CF12FF46A4FF22FEA89D1448AADC6825"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\power_mgt.cpp.o",
+    "bytes": 30728,
+    "sha256": "3EA4EE93F38D55DC87F6C86A0A6CA4EB36CFEC781C0FACF0670312F02F73237B"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\wiring.cpp.d",
+    "bytes": 4462,
+    "sha256": "B56433048214D65114CF2CF1BDB77511A7AAAD022FC6BF2FEE6F759E89B5B590"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\wiring.cpp.libsdetect.d",
+    "bytes": 4357,
+    "sha256": "CC42B09BD4CD996450C2EC561AD022239B7213F38E1443020B7015D37F919780"
+  },
+  {
+    "path": "build\\libraries\\FastLED-master\\wiring.cpp.o",
+    "bytes": 1832,
+    "sha256": "80F7EC972E259A3CCFD34891B18904F700010FB35C563BB16707F8C995BE8AAC"
+  },
+  {
+    "path": "build\\libraries\\Servo\\avr\\Servo.cpp.d",
+    "bytes": 1488,
+    "sha256": "9E3B1049D19730C95349A2B48BD1B0B68948D348E3C96964B3A4C0C0C471D349"
+  },
+  {
+    "path": "build\\libraries\\Servo\\avr\\Servo.cpp.libsdetect.d",
+    "bytes": 1388,
+    "sha256": "557F2D1E523EC2A71345A780B58BEEE7C540DEEE3B6C114CD00BBB6557084AC2"
+  },
+  {
+    "path": "build\\libraries\\Servo\\avr\\Servo.cpp.o",
+    "bytes": 20096,
+    "sha256": "1F973DE1479A946FE6C6BE9AD4B5DC368E3BE4B280A634E3E9B233AD9D4A33D2"
+  },
+  {
+    "path": "build\\libraries\\Servo\\esp32\\Servo.cpp.d",
+    "bytes": 191,
+    "sha256": "8594F5DB1046383FED727A35D383A11E3C833FB7E7836F1714B606F0FF9FFE27"
+  },
+  {
+    "path": "build\\libraries\\Servo\\esp32\\Servo.cpp.libsdetect.d",
+    "bytes": 89,
+    "sha256": "E960520EC5AF934AE0F0EFC420CE32E6538913CD7C73C35AA32A5DB2AC19997F"
+  },
+  {
+    "path": "build\\libraries\\Servo\\esp32\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "DD46963F1CBF07BBD399CE089F119F68C5042784CBC3898A89D512A7BA33051A"
+  },
+  {
+    "path": "build\\libraries\\Servo\\mbed\\Servo.cpp.d",
+    "bytes": 189,
+    "sha256": "92BDA030EB2278AC12170D7A66C129E701509A3A164C8EDE6E886D04D19E3768"
+  },
+  {
+    "path": "build\\libraries\\Servo\\mbed\\Servo.cpp.libsdetect.d",
+    "bytes": 88,
+    "sha256": "6CDF5237A0602F7B42928E8880070B5F63A0B65D1F49AAC8337C2F41494A4381"
+  },
+  {
+    "path": "build\\libraries\\Servo\\mbed\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "04008CCFC79A39F3F5136753289590E7F5CDCF813FC8A9E88268D5E237EEBE38"
+  },
+  {
+    "path": "build\\libraries\\Servo\\megaavr\\Servo.cpp.d",
+    "bytes": 195,
+    "sha256": "6ED652C1149516A62DC93CBEB29F311314B8BEBC820616C66088427B5973A943"
+  },
+  {
+    "path": "build\\libraries\\Servo\\megaavr\\Servo.cpp.libsdetect.d",
+    "bytes": 91,
+    "sha256": "721191012B7A84233A7E4E90D431C09A7A404077E00EE3A7135EE49D768D57E0"
+  },
+  {
+    "path": "build\\libraries\\Servo\\megaavr\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "A508F55CA161D6EC7228E945625FC004806131333D54D990B1A12A0855DCECBE"
+  },
+  {
+    "path": "build\\libraries\\Servo\\nrf52\\Servo.cpp.d",
+    "bytes": 191,
+    "sha256": "5852CBDC13C4404F48C038243ED832D36D2B80E18AE28C60FE9EA7341491AF29"
+  },
+  {
+    "path": "build\\libraries\\Servo\\nrf52\\Servo.cpp.libsdetect.d",
+    "bytes": 89,
+    "sha256": "1C553628044BDB2A5C4F829995E350CBAC7E5B6FFECF82F4B915C88C7979DDEF"
+  },
+  {
+    "path": "build\\libraries\\Servo\\nrf52\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "477681EC343C353A80BAD435CB24CEAFAE16821202E0C6D4D4B04F89746517F6"
+  },
+  {
+    "path": "build\\libraries\\Servo\\renesas\\Servo.cpp.d",
+    "bytes": 195,
+    "sha256": "924CB4F27848A3337258D6C2F636FF86BD498F2104B470F79AD69DA16EBA657D"
+  },
+  {
+    "path": "build\\libraries\\Servo\\renesas\\Servo.cpp.libsdetect.d",
+    "bytes": 91,
+    "sha256": "2199ACD1115A34FE8CB46600EF15BE68D4E701BC3155C1F8F0B503DA94411AE7"
+  },
+  {
+    "path": "build\\libraries\\Servo\\renesas\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "D715DE64D27116F22522FE4F091294EC89EB3A52E6E5425AEBA4394A0F6350EA"
+  },
+  {
+    "path": "build\\libraries\\Servo\\sam\\Servo.cpp.d",
+    "bytes": 187,
+    "sha256": "8C68F468ED7FDD6EBA5A8C6C332ABF07D60B7A3F06884F250415BEB19CA38A07"
+  },
+  {
+    "path": "build\\libraries\\Servo\\sam\\Servo.cpp.libsdetect.d",
+    "bytes": 87,
+    "sha256": "65062CDBCAD894EFC36CFA7CC4D0EE0265F6237D23D419F01E5D0EE1D8971012"
+  },
+  {
+    "path": "build\\libraries\\Servo\\sam\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "BCADB11C3E9CE6A0E8C02642C46F796F30C19BA98336B5C096A86F469CCD15B6"
+  },
+  {
+    "path": "build\\libraries\\Servo\\samd\\Servo.cpp.d",
+    "bytes": 189,
+    "sha256": "EAD741BFD0CE226410C1ED604CD9D4B119E397D2780B7786D801AED7232CB3F0"
+  },
+  {
+    "path": "build\\libraries\\Servo\\samd\\Servo.cpp.libsdetect.d",
+    "bytes": 88,
+    "sha256": "8B71A26AE44DE662E4E0D30F97B2F198C36CA1AB92AAE97423E4D13A2F4A722B"
+  },
+  {
+    "path": "build\\libraries\\Servo\\samd\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "F29F57A545C863B470C85A22FDADD4E10DFFFAD380D12703AF38336ABB7B60B6"
+  },
+  {
+    "path": "build\\libraries\\Servo\\stm32f4\\Servo.cpp.d",
+    "bytes": 195,
+    "sha256": "82D41172632865766EBE872AAF0B2ADFC14E5F46092EDBA5C62B47576E722665"
+  },
+  {
+    "path": "build\\libraries\\Servo\\stm32f4\\Servo.cpp.libsdetect.d",
+    "bytes": 91,
+    "sha256": "D1198AEB7AB65A479134D8F0B5115B85264D14E7B8F045F16A5E342BF60F604B"
+  },
+  {
+    "path": "build\\libraries\\Servo\\stm32f4\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "555E4FA920B1F85437DA89F054F4B3ABA8D0DA1005DA2A5C0372D4523CF18941"
+  },
+  {
+    "path": "build\\libraries\\Servo\\xmc\\Servo.cpp.d",
+    "bytes": 187,
+    "sha256": "E56A0B695A874A6B958A0C7E31B685A4BAA7E3588FC604E79E53D441E4866433"
+  },
+  {
+    "path": "build\\libraries\\Servo\\xmc\\Servo.cpp.libsdetect.d",
+    "bytes": 87,
+    "sha256": "E19A2AF06A1055B2879D88145D444B726C2ADC4D00980F6CA31EA48B6F7178A8"
+  },
+  {
+    "path": "build\\libraries\\Servo\\xmc\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "2A67CAC3682DFB0C7037B2CFACC126EF4CB49A7B04C66DEADC525782F12A2E93"
+  },
+  {
+    "path": "build\\libraries\\Servo\\zephyr\\Servo.cpp.d",
+    "bytes": 193,
+    "sha256": "8E204D6A2493B020BF4F148F04AA118E346E906A9F092D5FDA509216033F8E94"
+  },
+  {
+    "path": "build\\libraries\\Servo\\zephyr\\Servo.cpp.libsdetect.d",
+    "bytes": 90,
+    "sha256": "FC88725D8B27F440D216122B0896963742034919F023455DAF115CE152C2F5FA"
+  },
+  {
+    "path": "build\\libraries\\Servo\\zephyr\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "C4F36ABA9AD50B1DEF9F54E7505F7F65BC8D5209623FF6385360DBC761B2AF7E"
+  },
+  {
+    "path": "build\\libraries\\Wire\\Wire.cpp.d",
+    "bytes": 839,
+    "sha256": "80DD7510C4F3B4CE8BDFD3222BB4C38D8E552E59090CF0A7B3C749DCFFF60A34"
+  },
+  {
+    "path": "build\\libraries\\Wire\\Wire.cpp.libsdetect.d",
+    "bytes": 744,
+    "sha256": "2A07D1B75F4ED76665D62AD0E0259305B62CBF42A49A8C58CAB38192A1FAE317"
+  },
+  {
+    "path": "build\\libraries\\Wire\\Wire.cpp.o",
+    "bytes": 35372,
+    "sha256": "330D30B0F610BE956C4DB5ADB462E0358A161142D58682F218E2E7904B53B8A3"
+  },
+  {
+    "path": "build\\libraries\\Wire\\utility\\twi.c.d",
+    "bytes": 650,
+    "sha256": "E99C54EDA7A176125C3AC2BD8E2AC52465B967333CD003143EBD8D45BB40D21D"
+  },
+  {
+    "path": "build\\libraries\\Wire\\utility\\twi.c.libsdetect.d",
+    "bytes": 1381,
+    "sha256": "C435072C4826EF43FE6A3270EBD9A745B23666EA40D8346DC7CD4987EFC871BA"
+  },
+  {
+    "path": "build\\libraries\\Wire\\utility\\twi.c.o",
+    "bytes": 29928,
+    "sha256": "BB2F359A28A80083E2BC096DC7D485E59AF852C8620EB0859151E8671F808A2C"
+  },
+  {
+    "path": "build\\sketch\\ApplicationFunctionSet_xxx0.cpp",
+    "bytes": 69656,
+    "sha256": "1C12D9D209300A1C3EEE79929E9D6AA70A0DB985925816CB61AD2F4AEB80E3A9"
+  },
+  {
+    "path": "build\\sketch\\ApplicationFunctionSet_xxx0.cpp.d",
+    "bytes": 5274,
+    "sha256": "D476B19B64D8763C020816306375175BD03142F4438A350B09162CAAB4D5AA72"
+  },
+  {
+    "path": "build\\sketch\\ApplicationFunctionSet_xxx0.cpp.libsdetect.d",
+    "bytes": 5187,
+    "sha256": "D80FB6E7F3DA5A689CCAE58C5056F5471F58776F6B1CA53C4201A2F9543E7544"
+  },
+  {
+    "path": "build\\sketch\\ApplicationFunctionSet_xxx0.cpp.o",
+    "bytes": 304728,
+    "sha256": "16952E776F8DDE28C53491F8D5FDF868BD0F575405881FF7AAB03C8CC155618A"
+  },
+  {
+    "path": "build\\sketch\\ApplicationFunctionSet_xxx0.h",
+    "bytes": 4806,
+    "sha256": "D7FDCADDED6DF4F8DC879CDE394ADE85D02BD45469689F109512D426EAE72DE8"
+  },
+  {
+    "path": "build\\sketch\\ArduinoJson-v6.11.1.h",
+    "bytes": 176965,
+    "sha256": "2C023F3CBC289E9F38264A60F8D1892BD27EB43427BF4B6D7C04974A321C8415"
+  },
+  {
+    "path": "build\\sketch\\DeviceDriverSet_xxx0.cpp",
+    "bytes": 14465,
+    "sha256": "D3430B371661D76126991D0D0C3A20EB802E1733AFBBDCA7851B386ECB08048D"
+  },
+  {
+    "path": "build\\sketch\\DeviceDriverSet_xxx0.cpp.d",
+    "bytes": 4929,
+    "sha256": "60CB37021727FCB0E2B44BEB0BC949C36E68689B1A4C73D4B1241F368D5B7B94"
+  },
+  {
+    "path": "build\\sketch\\DeviceDriverSet_xxx0.cpp.libsdetect.d",
+    "bytes": 4842,
+    "sha256": "F563CA0D5A7562E1C1D140D2BD84A94319D361BE223C1778397CB501C30502D2"
+  },
+  {
+    "path": "build\\sketch\\DeviceDriverSet_xxx0.cpp.o",
+    "bytes": 190512,
+    "sha256": "D6ED930E1DD2F308D7D9C4212AC494B28D2710ED182511706AB15050B06508E3"
+  },
+  {
+    "path": "build\\sketch\\DeviceDriverSet_xxx0.h",
+    "bytes": 5591,
+    "sha256": "D8B175BB5587EC8CF8E10F05EA36314AD73999AF975E9C087D9FDF16CEC4CBF5"
+  },
+  {
+    "path": "build\\sketch\\I2Cdev.cpp",
+    "bytes": 56542,
+    "sha256": "888623D7A9AB048A6130FB9B65EB4B72CF346C222E78569652466125843B7031"
+  },
+  {
+    "path": "build\\sketch\\I2Cdev.cpp.d",
+    "bytes": 1648,
+    "sha256": "B3C11DEE6753E7982E3FBEAE1748943D8C090F5769810F46AA95F793D3B3608B"
+  },
+  {
+    "path": "build\\sketch\\I2Cdev.cpp.libsdetect.d",
+    "bytes": 1561,
+    "sha256": "95C798505ADC65EBB0C0D7B89D53BFB398715A631CCD7D226BE5E700039F0691"
+  },
+  {
+    "path": "build\\sketch\\I2Cdev.cpp.o",
+    "bytes": 27496,
+    "sha256": "5FA6A87350384FF72B077B682BE918B304711334B54E3FE70C48E12FDD3CC62E"
+  },
+  {
+    "path": "build\\sketch\\I2Cdev.h",
+    "bytes": 7140,
+    "sha256": "0B9306304CD1A8B4577D0B5DC8F86C06B0BD1EA28FEAD7AD4B40AA794BC3DFDB"
+  },
+  {
+    "path": "build\\sketch\\IRremote.cpp",
+    "bytes": 31908,
+    "sha256": "E9426FE926C1327191AD65CABC1E958A29DE11DEBBAD989BC5ECACA12FBC2646"
+  },
+  {
+    "path": "build\\sketch\\IRremote.cpp.d",
+    "bytes": 1548,
+    "sha256": "022D065F47FC15131FAD87FB6DA81064B32A3146A5937E8AEC686B5B780F4C13"
+  },
+  {
+    "path": "build\\sketch\\IRremote.cpp.libsdetect.d",
+    "bytes": 1461,
+    "sha256": "6F97BF8204EFA07100FDEC46343D0655991DEC7A67D79A3EDEB9B0C48A5D2BBE"
+  },
+  {
+    "path": "build\\sketch\\IRremote.cpp.o",
+    "bytes": 72080,
+    "sha256": "F16145657049E034A95E3540D10E8029FCFFACC01338E1486F6AA68214F3F110"
+  },
+  {
+    "path": "build\\sketch\\IRremote.h",
+    "bytes": 4350,
+    "sha256": "23C94981E55779984D1EEF1F8AC006C016BED028AC19748FCB0743AA6042D69D"
+  },
+  {
+    "path": "build\\sketch\\IRremoteInt.h",
+    "bytes": 15057,
+    "sha256": "412E408266100C016EF5C84FA7BA9DBE2574E3FB16F7E475C3C307EE16C0F877"
+  },
+  {
+    "path": "build\\sketch\\MPU6050_getdata.cpp",
+    "bytes": 2460,
+    "sha256": "BFCD9CFDE1060BCB5C1810FED50F807FFC91445A416EEA3BA0EA9768605607BE"
+  },
+  {
+    "path": "build\\sketch\\MPU6050_getdata.cpp.d",
+    "bytes": 1868,
+    "sha256": "CB42EF7F3614663F83860F2E7B2B4CC83A97FB3885D5959589B74A20C0053E1F"
+  },
+  {
+    "path": "build\\sketch\\MPU6050_getdata.cpp.libsdetect.d",
+    "bytes": 1781,
+    "sha256": "F87CDF740A69769F2EBBCB809AD6B7F8BFE211FBA84A8BF23487297531F9CD84"
+  },
+  {
+    "path": "build\\sketch\\MPU6050_getdata.cpp.o",
+    "bytes": 14324,
+    "sha256": "3BB3F032A89D7BB38322C7AAF604D6FDB8B4EB3159B5B2CA60BB1DB538C597B5"
+  },
+  {
+    "path": "build\\sketch\\MPU6050_getdata.h",
+    "bytes": 836,
+    "sha256": "B38EAFB918350B324FBE4160112C956EA0529998B41F13A8DC641D48675580DF"
+  },
+  {
+    "path": "build\\sketch\\MPU6050.cpp",
+    "bytes": 46434,
+    "sha256": "AD0681803955FFEBCABFF9C3E81BFAF250117A9461AC94A89798FFCF6DA819AE"
+  },
+  {
+    "path": "build\\sketch\\MPU6050.cpp.d",
+    "bytes": 1747,
+    "sha256": "01DD57130F6C13BCC5838C7076AE807C103B7583867CBC5C0AA9C00C0C739421"
+  },
+  {
+    "path": "build\\sketch\\MPU6050.cpp.libsdetect.d",
+    "bytes": 1660,
+    "sha256": "E728617A5BBB690AAFAD01E5EDDF48CD40D4BB41D9782EAAE327BE802CD51B11"
+  },
+  {
+    "path": "build\\sketch\\MPU6050.cpp.o",
+    "bytes": 250576,
+    "sha256": "77B98979F3A72BCC03CC2FEE4271C9AB86EB11E8213E873D3837E65DFA7D901F"
+  },
+  {
+    "path": "build\\sketch\\MPU6050.h",
+    "bytes": 37296,
+    "sha256": "B751459FB9ADBA9224803382E726172DF41F97723498295420032EC4DCB3E42B"
+  },
+  {
+    "path": "build\\sketch\\SmartRobotCarV4.0_V1_20230201.ino.cpp",
+    "bytes": 2233,
+    "sha256": "E5A02483FF3059726AA1D19A91320CE3B72BF337FB4959FEC2A209C9615235E7"
+  },
+  {
+    "path": "build\\sketch\\SmartRobotCarV4.0_V1_20230201.ino.cpp.d",
+    "bytes": 1516,
+    "sha256": "74D4BCE140DA4C1B9C4D1A2D3E48BC4D693F6FC7A294F15918F8A906C3EBDC81"
+  },
+  {
+    "path": "build\\sketch\\SmartRobotCarV4.0_V1_20230201.ino.cpp.merged",
+    "bytes": 1765,
+    "sha256": "1A9A5EBB4698E3C9993DA745EDC62C8FC1D7FED664F6521F29A59A9E9BF2B98E"
+  },
+  {
+    "path": "build\\sketch\\SmartRobotCarV4.0_V1_20230201.ino.cpp.merged.libsdetect.d",
+    "bytes": 1440,
+    "sha256": "7BBD3ECF9E900B268A9557E49B48CAC909153104DE85D6F25549E5650C34CB59"
+  },
+  {
+    "path": "build\\sketch\\SmartRobotCarV4.0_V1_20230201.ino.cpp.o",
+    "bytes": 10492,
+    "sha256": "B92A3A1D0110F4421C18B11C2EDE6301AD86F41D38339F9515886C4F9CFE02DD"
+  },
+  {
+    "path": "build\\sketch\\.vscode\\arduino.json",
+    "bytes": 287,
+    "sha256": "8D7FE94FA94657E25D3069B579EAA3ABDDA1FCEC1DC239967110CDB81A25AF3F"
+  },
+  {
+    "path": "build\\sketch\\.vscode\\c_cpp_properties.json",
+    "bytes": 1623,
+    "sha256": "17F7C3F28EBD230A385FB9F91CA9F46EB4A89F7C7561E0051F182D531A8FDD4A"
+  },
+  {
+    "path": "build\\sketch\\.vscode\\settings.json",
+    "bytes": 452,
+    "sha256": "253CA4E471444FD507681AC3579AB0FAB2D745E8068C81AD2FDDE86A55128884"
+  },
+  {
+    "path": "build-20220303\\build.options.json",
+    "bytes": 892,
+    "sha256": "B811B5579473566356E58C596CF8CE48DAE862EB783492FF7D0002F3B227E57E"
+  },
+  {
+    "path": "build-20220303\\compile_commands.json",
+    "bytes": 69686,
+    "sha256": "A14D6378490202ECFD6752A40493AA62F2C4F79B199B432A0AE779B61478DBD8"
+  },
+  {
+    "path": "build-20220303\\includes.cache",
+    "bytes": 61237,
+    "sha256": "4E2903860E0F44E129327A1D642E55CD796C4FC9383D52E08E6A2BBA02F71FB3"
+  },
+  {
+    "path": "build-20220303\\libraries.cache",
+    "bytes": 465,
+    "sha256": "1D8B93E98285CF938EEAB6C732BBB17D5E52452ADE6C2F5545BFB05EF1A24E9A"
+  },
+  {
+    "path": "build-20220303\\SmartRobotCarV4.0_V1_20220303.ino.eep",
+    "bytes": 13,
+    "sha256": "788E5FFC44AE4EE912FE01F495951F96B0ACCD5705E184DCAEA197D8B64856A6"
+  },
+  {
+    "path": "build-20220303\\SmartRobotCarV4.0_V1_20220303.ino.elf",
+    "bytes": 238892,
+    "sha256": "1EF252167B0D6D9686458B0283E332FE3FD59FDFB5E13601174D69FC6E74563F"
+  },
+  {
+    "path": "build-20220303\\SmartRobotCarV4.0_V1_20220303.ino.hex",
+    "bytes": 87113,
+    "sha256": "FFFD65B174145B53741301A107E04AEB44E590B6A501461D78D804A67C212867"
+  },
+  {
+    "path": "build-20220303\\SmartRobotCarV4.0_V1_20220303.ino.with_bootloader.bin",
+    "bytes": 32768,
+    "sha256": "A02E343CAC56ACB79CB6683F60263E905155A2DE6EF08B3ECE4789C8A2D1EB5A"
+  },
+  {
+    "path": "build-20220303\\SmartRobotCarV4.0_V1_20220303.ino.with_bootloader.hex",
+    "bytes": 86592,
+    "sha256": "B1D9262B4119C009CBB76E4B001864289C12071A610F171F34250D379F38CE0C"
+  },
+  {
+    "path": "build-20220303\\core\\abi.cpp.d",
+    "bytes": 203,
+    "sha256": "AE65D0CDF30CF93122CD185348278B08E675D5B71EAB635234318873D78CCBC7"
+  },
+  {
+    "path": "build-20220303\\core\\abi.cpp.o",
+    "bytes": 4140,
+    "sha256": "193A5E42385536771D475A4739920AF149C96664238ADD0C14CF3383794D7082"
+  },
+  {
+    "path": "build-20220303\\core\\CDC.cpp.d",
+    "bytes": 1249,
+    "sha256": "C1E4A9D0103E07E3A365ABBACFD3065F0BCCBEFBA154F581264AECD44F898113"
+  },
+  {
+    "path": "build-20220303\\core\\CDC.cpp.o",
+    "bytes": 1832,
+    "sha256": "5B5F663A06F94C9CBCBF46A3EB1BE62C30C4252C0C13502CFC9EC6A88C1D92F3"
+  },
+  {
+    "path": "build-20220303\\core\\core.a",
+    "bytes": 347920,
+    "sha256": "7826B63EAB6FBE779F44DB6CE9020F13FD43282DD4854004BD07662C3D44B099"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial.cpp.d",
+    "bytes": 1499,
+    "sha256": "70993E5C8AF5BF5B349EB14B50B9C6E2B2E2D0F55902966103DD0323BB1B89E1"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial.cpp.o",
+    "bytes": 20316,
+    "sha256": "7284D97E84791FB0FD346785C54F0925DAC7862707ABB3E6C73C783889794DAD"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial0.cpp.d",
+    "bytes": 1501,
+    "sha256": "5AC1A0F386404503F16061516DA386E3C541A16C6CD8DC95685D3CC93F9441D6"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial0.cpp.o",
+    "bytes": 13216,
+    "sha256": "CACC29C3D6B7361E37062711C46C2B664EB7BABCD1133C7463BBD2DE67397E92"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial1.cpp.d",
+    "bytes": 1501,
+    "sha256": "CCB916D42DC1D9507BB61E0BE884BD7F6986C54AE7F263AB06CC66B8DE0CDA4F"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial1.cpp.o",
+    "bytes": 1844,
+    "sha256": "1801862C8084612EA4B3270037EC7D0759EF7EF6803CFD5D6552A5024775EB83"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial2.cpp.d",
+    "bytes": 1501,
+    "sha256": "9D206B8472B06690833F361E9578FC232B089A386915EFFAE428BAA77A3BC0C3"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial2.cpp.o",
+    "bytes": 1844,
+    "sha256": "CC9F14A03ECB63A9E4334067F36CBBE017090D8965219997C5ACA9D283F3374C"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial3.cpp.d",
+    "bytes": 1501,
+    "sha256": "98642FD914AFF18AA587E864B54B965D3D150D5659A47EA8EA3441788218C682"
+  },
+  {
+    "path": "build-20220303\\core\\HardwareSerial3.cpp.o",
+    "bytes": 1844,
+    "sha256": "E0FC567258401CF670812230F55B3447477AF57E3FCD0FA35D061B43E49B5D07"
+  },
+  {
+    "path": "build-20220303\\core\\hooks.c.d",
+    "bytes": 203,
+    "sha256": "689848FF3C584C0F7F7DAE10282D09CF5FC8C8C1457D2AFC45A43F071B1ACFFD"
+  },
+  {
+    "path": "build-20220303\\core\\hooks.c.o",
+    "bytes": 2996,
+    "sha256": "87CAA775FB7FABD0BD1154729BF7B1ECD20510583694B86C432E641B34D4DCDD"
+  },
+  {
+    "path": "build-20220303\\core\\IPAddress.cpp.d",
+    "bytes": 1469,
+    "sha256": "5BE1BDF60B53988822923169D41DFF2D43454072F8A261A20A0E8B0839785F44"
+  },
+  {
+    "path": "build-20220303\\core\\IPAddress.cpp.o",
+    "bytes": 17824,
+    "sha256": "C749F8F8333DAC48267FF925DB0B472671349E9CD4ECC5FF41270E5235C5B997"
+  },
+  {
+    "path": "build-20220303\\core\\main.cpp.d",
+    "bytes": 1354,
+    "sha256": "9347DB99796C14836BE8B1F2156519B8F1522D3674869F6DF5411128A34C5321"
+  },
+  {
+    "path": "build-20220303\\core\\main.cpp.o",
+    "bytes": 4776,
+    "sha256": "81633F3ECEB7F68B2A66CC6E349FB3CE00496ED1E3FD97615B1AFC623991D190"
+  },
+  {
+    "path": "build-20220303\\core\\new.cpp.d",
+    "bytes": 399,
+    "sha256": "2CF4E881C42B230437DA9070870FC488997742561E0FAD9D4082F1F772563576"
+  },
+  {
+    "path": "build-20220303\\core\\new.cpp.o",
+    "bytes": 11164,
+    "sha256": "FC7F421D575BE86F0E484C2E5B54305BBB0A4BB437C4108C936A39415629C850"
+  },
+  {
+    "path": "build-20220303\\core\\PluggableUSB.cpp.d",
+    "bytes": 1375,
+    "sha256": "94D9CD4AAC8ABFFECEE4F273FBD379860083923589DD2DC51093FB424D935CD6"
+  },
+  {
+    "path": "build-20220303\\core\\PluggableUSB.cpp.o",
+    "bytes": 1840,
+    "sha256": "8DCA067D1492215198D4884D25ED319FAC4F43B784C416167691276B6ECF1523"
+  },
+  {
+    "path": "build-20220303\\core\\Print.cpp.d",
+    "bytes": 1253,
+    "sha256": "3524CA59A570486DDCF4A319FB7DB485EE1187B2996366C1B0B8111248A32016"
+  },
+  {
+    "path": "build-20220303\\core\\Print.cpp.o",
+    "bytes": 37680,
+    "sha256": "2ABA13A40C59564393B1BEC175D49836A226FB8E076D7CD04CA228FD9D6934B1"
+  },
+  {
+    "path": "build-20220303\\core\\Stream.cpp.d",
+    "bytes": 1255,
+    "sha256": "F6A38AB40262D5A7B0FE6F2F04ADEA922B6C84D88DA303B6DCF855894CA12EBB"
+  },
+  {
+    "path": "build-20220303\\core\\Stream.cpp.o",
+    "bytes": 27308,
+    "sha256": "DCFD4554CE363D7ACAFA3ACB1145B57B134CFECF7E46634442D8ED4A74A93329"
+  },
+  {
+    "path": "build-20220303\\core\\Tone.cpp.d",
+    "bytes": 1251,
+    "sha256": "28918DC6705A701321851EC475C0150F8D19F62B233314622F7DDD9691AFF0D2"
+  },
+  {
+    "path": "build-20220303\\core\\Tone.cpp.o",
+    "bytes": 16956,
+    "sha256": "7B9B6DFC2A8657F5A6A3A8B35DF904070B28E17144846661DF2BBC39894DC1CE"
+  },
+  {
+    "path": "build-20220303\\core\\USBCore.cpp.d",
+    "bytes": 1365,
+    "sha256": "1E9AA13E008E7C977530CA356E5B38B43E2DB73075324F230403EF8748A5B5D4"
+  },
+  {
+    "path": "build-20220303\\core\\USBCore.cpp.o",
+    "bytes": 1836,
+    "sha256": "ABC55FBF6D2A3D0E5BFC438077F98C703689D6F0D8FCCDB14847F04F70489B9B"
+  },
+  {
+    "path": "build-20220303\\core\\WInterrupts.c.d",
+    "bytes": 642,
+    "sha256": "756585AE1C84376277421B1A7A3F1BFAEC41A3EBF83483CA8934E078B8378F1A"
+  },
+  {
+    "path": "build-20220303\\core\\WInterrupts.c.o",
+    "bytes": 8828,
+    "sha256": "F9255A900CB6D51F109463B5E187FBE546CA4476ABDF5BC9B770251043339202"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_analog.c.d",
+    "bytes": 646,
+    "sha256": "0FE977D25BEEA6666CB5EF4A9DBC066CB3DE72EB0FE2BBBA6AB5DA1531DC8E0C"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_analog.c.o",
+    "bytes": 8164,
+    "sha256": "0787599FE26DCDCF2C87974543E0BC3159BC7DAA8E5649D7CBA3C547CDCB3298"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_digital.c.d",
+    "bytes": 648,
+    "sha256": "006F2DC439572F7207831085258888E8D8C8CB08AF158B79C409EE50946B3992"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_digital.c.o",
+    "bytes": 14108,
+    "sha256": "59B43979309877E54CDF94DBAC68CC70F8F99B3F396BEE93BA6EDA7020C052A8"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_pulse.c.d",
+    "bytes": 644,
+    "sha256": "724CBBFB3F8D1725EEA94C1BA2DEDDB0FAFB77E7DD610180CC993C6321278D65"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_pulse.c.o",
+    "bytes": 7948,
+    "sha256": "979BE94425A284F2C0C350FB2BCFA903623AE963692082B9B618370500A69931"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_pulse.S.d",
+    "bytes": 217,
+    "sha256": "2AB1024FF2FF891FAC3A2272CBA8D7032C491876D9198FE2BBDF93155D01F5E1"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_pulse.S.o",
+    "bytes": 2888,
+    "sha256": "DB19EB0AE9844535C6E4A08ABC367C370472A98A8B74321AD75B1F22ADE54102"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_shift.c.d",
+    "bytes": 644,
+    "sha256": "68E078540039E3C4A732D9EFCBC418001E1C63070919506D34FA7775396777E6"
+  },
+  {
+    "path": "build-20220303\\core\\wiring_shift.c.o",
+    "bytes": 5360,
+    "sha256": "C2C2E19D80360DE8E93882A6FD35773A28250E24F81D42BD0C07FBED70F8C28F"
+  },
+  {
+    "path": "build-20220303\\core\\wiring.c.d",
+    "bytes": 632,
+    "sha256": "38A05DA5A046EA6FAEF43E65076C8C6DB396F9D96C80F98132A9BBDFE5AFBCE2"
+  },
+  {
+    "path": "build-20220303\\core\\wiring.c.o",
+    "bytes": 10036,
+    "sha256": "F20F61DE30AD85DDA727397B73466E68F0D044C773F1434AA578034A5F8CE354"
+  },
+  {
+    "path": "build-20220303\\core\\WMath.cpp.d",
+    "bytes": 207,
+    "sha256": "391B10A449092354FD7128CD1C482840AA728214D3A336DFFD73FE807849CA6D"
+  },
+  {
+    "path": "build-20220303\\core\\WMath.cpp.o",
+    "bytes": 7532,
+    "sha256": "3E6CC9BA57C3E9A25DA16901BBD7365977C8B6BBFF9DBD1229AB446919892246"
+  },
+  {
+    "path": "build-20220303\\core\\WString.cpp.d",
+    "bytes": 314,
+    "sha256": "7C469A09119731A09F0700E2FC7392A8F8FB9699884BDEEAAB5A668973E21BA8"
+  },
+  {
+    "path": "build-20220303\\core\\WString.cpp.o",
+    "bytes": 107676,
+    "sha256": "D45C0489D5A827067B8E90EC155E1C6DC6D54D0E87C314E37EA901BFCDE8049D"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\bitswap.cpp.d",
+    "bytes": 4473,
+    "sha256": "5400A8D195886875201C2838168A98E3AD9029652AF1ADD92FFCA182FF994A1E"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\bitswap.cpp.libsdetect.d",
+    "bytes": 4359,
+    "sha256": "37062B666CDA63A9516D5696C26BFC7A775B7847F85BF3DC57C28C050317636B"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\bitswap.cpp.o",
+    "bytes": 4020,
+    "sha256": "12EBF9B96490A1BB96E40FC2CF961D80DF30D9E109537758D234FB48842BDDD8"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\colorpalettes.cpp.d",
+    "bytes": 4485,
+    "sha256": "564FC392FC15C17B565FE0F288CD30B8063A290BC8150DC1040306E26B5DC187"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\colorpalettes.cpp.libsdetect.d",
+    "bytes": 4371,
+    "sha256": "D1DEFC02958AD0958C81D868C67252B904B9DC5C23081DD0A049C52D25577B4E"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\colorpalettes.cpp.o",
+    "bytes": 7840,
+    "sha256": "D4ADA8C02B70748DCFCE7D3E2CFBDD81A1B396F11D05E6599118718E418FFE6F"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\colorutils.cpp.d",
+    "bytes": 4479,
+    "sha256": "7E32745060714FEA96CE1F4226782A0550AD933CE20B9F59A7DFD82363EF801E"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\colorutils.cpp.libsdetect.d",
+    "bytes": 4365,
+    "sha256": "5D25CCE08F2DC392BF5F1D1E04BA5CB47D376FF81B14F2C3C0C843780E0BBCB5"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\colorutils.cpp.o",
+    "bytes": 131344,
+    "sha256": "19029C4EF084E635EB2759B931ECA56D65D5AC37F1B1E79F6E3522F9BA9E181F"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\FastLED.cpp.d",
+    "bytes": 4473,
+    "sha256": "5B2180C697EE3373AFAC913B9C8671AAD28A3AD8C68636530DF88AE2AB9410AE"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\FastLED.cpp.libsdetect.d",
+    "bytes": 4359,
+    "sha256": "E922383974CA8B7E73C78B8814A2367727FC1418054CEE0D1E8FD44CF0E9675A"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\FastLED.cpp.o",
+    "bytes": 42912,
+    "sha256": "55AD35809FF50D37E302F98C00E6B25E4506CA8D0039C1C175311C290DF3EFED"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\hsv2rgb.cpp.d",
+    "bytes": 4473,
+    "sha256": "20F3D51D5642A7C2AE27BF98FBCA862F2C2043129F0B0F98B61D5B6AFEEE65DC"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\hsv2rgb.cpp.libsdetect.d",
+    "bytes": 4359,
+    "sha256": "42A9156A74F6154BAA6EE39509CD98DE6973E30047340E76B3F549AD2FA2FC9E"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\hsv2rgb.cpp.o",
+    "bytes": 35412,
+    "sha256": "E98ED1D58693CFAC67F8B7986F027C4A286BC8E1AA851F8124FDEB582E839882"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\lib8tion.cpp.d",
+    "bytes": 4475,
+    "sha256": "BA8EDD47519A0FD975080DDB9B327B589E56CCFB4E4839081F4C41FC6A5FD238"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\lib8tion.cpp.libsdetect.d",
+    "bytes": 4361,
+    "sha256": "611895405E575C8E6DC373545F061C84B7D2A2EE6A5200B114684974A5C97011"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\lib8tion.cpp.o",
+    "bytes": 6224,
+    "sha256": "EC1B22B757BC65E72E5FF046A44115BD2FE9761F3569DBBE760BD2572E9D04DB"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\noise.cpp.d",
+    "bytes": 4469,
+    "sha256": "818AD7201429FA94905FD7E1A5797A617ECAB27737BB4C8B918FF1AAB2D6837A"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\noise.cpp.libsdetect.d",
+    "bytes": 4355,
+    "sha256": "E0720B3C5A53464D05BD1144B40695B13C15793C0791C3BEA573F0DE59CF2A69"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\noise.cpp.o",
+    "bytes": 112400,
+    "sha256": "DCCDEBF33E831B2C17C6ED388936D4A76F0627767A9090093D52AB8849FE9C8B"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\platforms.cpp.d",
+    "bytes": 213,
+    "sha256": "70320F9180924182C2BBB379AB6993CD03544BF4ED3EF6A9DF685ABFB0D47503"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\platforms.cpp.libsdetect.d",
+    "bytes": 99,
+    "sha256": "F7F9934C39093BB17CEB40DB56128FCEAEE24BD125D601FF3BA7903E0437A6FE"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\platforms.cpp.o",
+    "bytes": 1836,
+    "sha256": "531EAD5AEC82C7C4C51324E08F40E214EBBCDDC65F8D6EB3F9170D2714EC2B92"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\power_mgt.cpp.d",
+    "bytes": 4477,
+    "sha256": "B16871514ACDDE0C6F8C36041A3605835825CA635D1FEB9C898F6289A957DBA4"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\power_mgt.cpp.libsdetect.d",
+    "bytes": 4363,
+    "sha256": "CCE10C45339887D12AA48CC4CFAA0A57CF12FF46A4FF22FEA89D1448AADC6825"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\power_mgt.cpp.o",
+    "bytes": 30728,
+    "sha256": "2BC2E4453F1C90BE2C83C6151D56B4D6694E392B531FCE16C70F5F4F58BA9986"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\wiring.cpp.d",
+    "bytes": 4471,
+    "sha256": "68CDCC8757E25BC19D11361521EE59FB108CE1765FE862524FCD83508B7BD084"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\wiring.cpp.libsdetect.d",
+    "bytes": 4357,
+    "sha256": "CC42B09BD4CD996450C2EC561AD022239B7213F38E1443020B7015D37F919780"
+  },
+  {
+    "path": "build-20220303\\libraries\\FastLED-master\\wiring.cpp.o",
+    "bytes": 1832,
+    "sha256": "F2FD970DCFB16B520C64288AB6903D1B8CBBAD6B1CFFBB2D2AE2FB8FB87FE410"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\avr\\Servo.cpp.d",
+    "bytes": 1497,
+    "sha256": "FE223108E698F05A86FDC42143AD66BD891A41BF0E86CC8E33DA228CE1280D14"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\avr\\Servo.cpp.libsdetect.d",
+    "bytes": 1388,
+    "sha256": "557F2D1E523EC2A71345A780B58BEEE7C540DEEE3B6C114CD00BBB6557084AC2"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\avr\\Servo.cpp.o",
+    "bytes": 20096,
+    "sha256": "64633132525BE9AC961A0F2DDDAF11B497056A112EB8340481AF8421F940259E"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\esp32\\Servo.cpp.d",
+    "bytes": 200,
+    "sha256": "0DCC1BC818E5EFCF0BA0BF5BC13786E18088E08B4C96134EA10A8042E7569230"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\esp32\\Servo.cpp.libsdetect.d",
+    "bytes": 89,
+    "sha256": "E960520EC5AF934AE0F0EFC420CE32E6538913CD7C73C35AA32A5DB2AC19997F"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\esp32\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "A55BD8DCCB47D10F9E73B7A5DDA0C0071BA63719BB6D91C55EC661ABA2CDB476"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\mbed\\Servo.cpp.d",
+    "bytes": 198,
+    "sha256": "4C86FDD4EB17C90B83ACA79F291416A31430CABB2E317518090454E66CB6A8CC"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\mbed\\Servo.cpp.libsdetect.d",
+    "bytes": 88,
+    "sha256": "6CDF5237A0602F7B42928E8880070B5F63A0B65D1F49AAC8337C2F41494A4381"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\mbed\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "491825E25817B52AA221212CCFCB58929BC54F7D7176F39D326FA8DDBBDA8096"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\megaavr\\Servo.cpp.d",
+    "bytes": 204,
+    "sha256": "4F4DC41E526B618020F3FAF148C62069F88ABE033E1C70476A903AFA041BC7DE"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\megaavr\\Servo.cpp.libsdetect.d",
+    "bytes": 91,
+    "sha256": "721191012B7A84233A7E4E90D431C09A7A404077E00EE3A7135EE49D768D57E0"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\megaavr\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "4F68088D2EDCD1BFBB77C42589A3F19F781E74AD86427312CD6256D7E511D1F3"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\nrf52\\Servo.cpp.d",
+    "bytes": 200,
+    "sha256": "D3723F0FFA898A4F34CA99226B1779E2FFF821F85ED51625802B90EB09C3A6D1"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\nrf52\\Servo.cpp.libsdetect.d",
+    "bytes": 89,
+    "sha256": "1C553628044BDB2A5C4F829995E350CBAC7E5B6FFECF82F4B915C88C7979DDEF"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\nrf52\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "F4A06D624BFED9C6292E8E38024EB52490D71A3ACB066AF1F66235CC2794FAE8"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\renesas\\Servo.cpp.d",
+    "bytes": 204,
+    "sha256": "9ABD993E70A5BE07205829C963D731B971AD9E54C51DC190E6CB65E13396A500"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\renesas\\Servo.cpp.libsdetect.d",
+    "bytes": 91,
+    "sha256": "2199ACD1115A34FE8CB46600EF15BE68D4E701BC3155C1F8F0B503DA94411AE7"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\renesas\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "463283CE356F38F1FFD9F6D53F36C4F0110346613C45189FE4284C69A47AF665"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\sam\\Servo.cpp.d",
+    "bytes": 196,
+    "sha256": "717C27E05D591965C395E8B541B2D4374C69360E69BF039B8DD837434DDA6CFD"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\sam\\Servo.cpp.libsdetect.d",
+    "bytes": 87,
+    "sha256": "65062CDBCAD894EFC36CFA7CC4D0EE0265F6237D23D419F01E5D0EE1D8971012"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\sam\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "354C902C39E41204B03CFD901E4EE69A423698C05E8713A6D1300D7596F60AA3"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\samd\\Servo.cpp.d",
+    "bytes": 198,
+    "sha256": "C352AA38BAF00B26C97FAD710E0B3FCBD25F95E01D2873FC57F99BD38DCF59A5"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\samd\\Servo.cpp.libsdetect.d",
+    "bytes": 88,
+    "sha256": "8B71A26AE44DE662E4E0D30F97B2F198C36CA1AB92AAE97423E4D13A2F4A722B"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\samd\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "A9206F76B7EEEE8DAED56F26A8343AE6DC5E024CBE2FA442C318E6757193D012"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\stm32f4\\Servo.cpp.d",
+    "bytes": 204,
+    "sha256": "B315EF1D59F6E8B1FEE499D5F6BDDEFD1C916A84CEEB20063FBAA140D7416CF1"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\stm32f4\\Servo.cpp.libsdetect.d",
+    "bytes": 91,
+    "sha256": "D1198AEB7AB65A479134D8F0B5115B85264D14E7B8F045F16A5E342BF60F604B"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\stm32f4\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "6ABC1B30074B316AD0CDC26E70BF417FF6D2C722DFB85A33C6D8D8832FFEC91E"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\xmc\\Servo.cpp.d",
+    "bytes": 196,
+    "sha256": "5A9585F9683F8C8594E1FF84BAF2018FDA70F6E4CDF9CC46ABDB79D8320F52A0"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\xmc\\Servo.cpp.libsdetect.d",
+    "bytes": 87,
+    "sha256": "E19A2AF06A1055B2879D88145D444B726C2ADC4D00980F6CA31EA48B6F7178A8"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\xmc\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "348F05E64B484DC823DD465ECC053C6D64CC1D7F272608098116C63BF8CDA6C8"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\zephyr\\Servo.cpp.d",
+    "bytes": 202,
+    "sha256": "8140B09B7F60F72B2A322156D255026DCEDFA163D5FA8BC17988D9BF56A67BEC"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\zephyr\\Servo.cpp.libsdetect.d",
+    "bytes": 90,
+    "sha256": "FC88725D8B27F440D216122B0896963742034919F023455DAF115CE152C2F5FA"
+  },
+  {
+    "path": "build-20220303\\libraries\\Servo\\zephyr\\Servo.cpp.o",
+    "bytes": 1832,
+    "sha256": "608B082F1EE45E107C98E1F073E143D5138ED5C678E49FA4E06A0E0732290ABC"
+  },
+  {
+    "path": "build-20220303\\libraries\\Wire\\Wire.cpp.d",
+    "bytes": 848,
+    "sha256": "D00D1D8F0408027A95711581F02F5F489F9DB92D7C118BD9F85F1B5DAB5DD697"
+  },
+  {
+    "path": "build-20220303\\libraries\\Wire\\Wire.cpp.libsdetect.d",
+    "bytes": 744,
+    "sha256": "2A07D1B75F4ED76665D62AD0E0259305B62CBF42A49A8C58CAB38192A1FAE317"
+  },
+  {
+    "path": "build-20220303\\libraries\\Wire\\Wire.cpp.o",
+    "bytes": 35372,
+    "sha256": "451F5932E25EE2A6D9ED96E702681139DD1DCAA2FE600045AA22CF355851A272"
+  },
+  {
+    "path": "build-20220303\\libraries\\Wire\\utility\\twi.c.d",
+    "bytes": 659,
+    "sha256": "9C08CBD24D3839FD40823B1EDC275A0522FD9D931DB5A29326CEBFB9341749CB"
+  },
+  {
+    "path": "build-20220303\\libraries\\Wire\\utility\\twi.c.libsdetect.d",
+    "bytes": 1381,
+    "sha256": "C435072C4826EF43FE6A3270EBD9A745B23666EA40D8346DC7CD4987EFC871BA"
+  },
+  {
+    "path": "build-20220303\\libraries\\Wire\\utility\\twi.c.o",
+    "bytes": 29928,
+    "sha256": "1B1E3CB1AE29DC65F4249EF619606F6596CE6F8D5F0040ECFAEC8A5254C0EC05"
+  },
+  {
+    "path": "build-20220303\\sketch\\ApplicationFunctionSet_xxx0.cpp",
+    "bytes": 69675,
+    "sha256": "FD786860E6BD8626CC1AB55DE0FBCBBD0DC02B6C514FD14A9528D49D634DA22E"
+  },
+  {
+    "path": "build-20220303\\sketch\\ApplicationFunctionSet_xxx0.cpp.d",
+    "bytes": 5337,
+    "sha256": "16153F9253D1FE713103D762D49C0EA3D7A24D8C4367BF19038EBDDFC8444655"
+  },
+  {
+    "path": "build-20220303\\sketch\\ApplicationFunctionSet_xxx0.cpp.libsdetect.d",
+    "bytes": 5241,
+    "sha256": "103B52B3D3C6ECFCF47D565341B4D9B2D099978396B3FF212A204BB399EB7A08"
+  },
+  {
+    "path": "build-20220303\\sketch\\ApplicationFunctionSet_xxx0.cpp.o",
+    "bytes": 310416,
+    "sha256": "0CB3E3CB838F859357E751203B6A96424D9310AF0626468861E36C580092071B"
+  },
+  {
+    "path": "build-20220303\\sketch\\ApplicationFunctionSet_xxx0.h",
+    "bytes": 4871,
+    "sha256": "16B80B55383513F2245654C08CA11C07CFEC1492338977CA0399EDB05F576222"
+  },
+  {
+    "path": "build-20220303\\sketch\\ArduinoJson-v6.11.1.h",
+    "bytes": 177030,
+    "sha256": "5AC194B597B8F51377951EC86F3F7DA6C79575A8B76C28B80641786ACF9BBD46"
+  },
+  {
+    "path": "build-20220303\\sketch\\DeviceDriverSet_xxx0.cpp",
+    "bytes": 14530,
+    "sha256": "6B424FA4D8EE134960672050BAA2492C6FAFC90D717DE72B583AA96F94CA387A"
+  },
+  {
+    "path": "build-20220303\\sketch\\DeviceDriverSet_xxx0.cpp.d",
+    "bytes": 4965,
+    "sha256": "7DF5ED6EAFC1FF68768EC15B582F403A4118A316D875840CE00C8434B0E6B8F3"
+  },
+  {
+    "path": "build-20220303\\sketch\\DeviceDriverSet_xxx0.cpp.libsdetect.d",
+    "bytes": 4869,
+    "sha256": "A3AD3817A5A67467FF32922576A8ACB600A25746BBFC10E88B07A80E1E922127"
+  },
+  {
+    "path": "build-20220303\\sketch\\DeviceDriverSet_xxx0.cpp.o",
+    "bytes": 192200,
+    "sha256": "839B0E2A1DED95340E973D125301B86060AF697AA17A7071B6D27ACD9208E3BE"
+  },
+  {
+    "path": "build-20220303\\sketch\\DeviceDriverSet_xxx0.h",
+    "bytes": 5656,
+    "sha256": "54144E315DC7E27B4AB3287698064594AA74F5F083B04101761911EA3356809E"
+  },
+  {
+    "path": "build-20220303\\sketch\\I2Cdev.cpp",
+    "bytes": 56607,
+    "sha256": "E055A98EF7ABBA93A4EED7AEF9F9EDC5D0BBC6A5E4DD8523D79817C93633CDDF"
+  },
+  {
+    "path": "build-20220303\\sketch\\I2Cdev.cpp.d",
+    "bytes": 1675,
+    "sha256": "C989DEFBD207E5E507D1CD626F37D5BD8A29446D97D98D6DA9A2C97CB435B5CA"
+  },
+  {
+    "path": "build-20220303\\sketch\\I2Cdev.cpp.libsdetect.d",
+    "bytes": 1579,
+    "sha256": "6E27F0553A8740589BA3C0972C46525FA7D85F8822AE0F2847E375DEA2893612"
+  },
+  {
+    "path": "build-20220303\\sketch\\I2Cdev.cpp.o",
+    "bytes": 28340,
+    "sha256": "C61209CD14BA5783993310335FE01EEEBAC63B305FCA1D8A541F3F017FB6A2B5"
+  },
+  {
+    "path": "build-20220303\\sketch\\I2Cdev.h",
+    "bytes": 7205,
+    "sha256": "602372A41A50B8CF190925D3697EC749168F65ED1DDB11A7A42521994C61E2C9"
+  },
+  {
+    "path": "build-20220303\\sketch\\IRremote.cpp",
+    "bytes": 31973,
+    "sha256": "C4D7CE540786D8848DCF398860AB3D43948D198B2C0C9DDAE0E4AC97AF317F79"
+  },
+  {
+    "path": "build-20220303\\sketch\\IRremote.cpp.d",
+    "bytes": 1584,
+    "sha256": "B0FACFB45F3A1FEF77B4ADCC5A7D87C169B7CB1A3FDA9421552B91921521C087"
+  },
+  {
+    "path": "build-20220303\\sketch\\IRremote.cpp.libsdetect.d",
+    "bytes": 1488,
+    "sha256": "D11009A5FD1FB2078BBA2A1CE6DCAF77723B5869570194A24E12A0399561C457"
+  },
+  {
+    "path": "build-20220303\\sketch\\IRremote.cpp.o",
+    "bytes": 74172,
+    "sha256": "D021014956FF0DAE11FDDE455E757C881700D140F3FDF9CFA751191AF222FF8B"
+  },
+  {
+    "path": "build-20220303\\sketch\\IRremote.h",
+    "bytes": 4415,
+    "sha256": "659E01256810525A2BF7B5643484486FC4E97043BDF89A9452F5F6671D7ED70F"
+  },
+  {
+    "path": "build-20220303\\sketch\\IRremoteInt.h",
+    "bytes": 15122,
+    "sha256": "259B920AB57CEF69EF4C717AD19DE6787BD49AFF2D91C1E00ADC3A34A1C892FB"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050_getdata.cpp",
+    "bytes": 2525,
+    "sha256": "6412A4AA713BBD6A0F2722618E4D5B54CF83DE4FD468B8CEE3B1E55A7A877361"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050_getdata.cpp.d",
+    "bytes": 1913,
+    "sha256": "C22E9609A4E4F2E08BF0B4F353021C689CF45782575E5F62EB879093BE65FF95"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050_getdata.cpp.libsdetect.d",
+    "bytes": 1817,
+    "sha256": "F4A0FEE45466618CB401C651A8EC75BEB248FA1FD609B2B9B2FB7B341427A025"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050_getdata.cpp.o",
+    "bytes": 14648,
+    "sha256": "D259BACD409635FE7E398524B42F76CBF37BB87F0BC5FFA3D11C5852DE92FA93"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050_getdata.h",
+    "bytes": 901,
+    "sha256": "C538D538C666C1F3CB014AD0379DD5C1FB4D7FCE2D1CE3DE0C9F3542A34362A4"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050.cpp",
+    "bytes": 46499,
+    "sha256": "31473F3F135D05E8622B3E6B7CD2410AAB112D58E976F378A5F5CA339962A975"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050.cpp.d",
+    "bytes": 1783,
+    "sha256": "46F678AC9A7E6B2C0D05CD6B6F6EC051C7A931F2C7475E943A1BC81101F95F0F"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050.cpp.libsdetect.d",
+    "bytes": 1687,
+    "sha256": "6AF39E0881A72F54B2F32EB61A2A040AC033D51EAF3AC674A75E84467BECDBC2"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050.cpp.o",
+    "bytes": 263184,
+    "sha256": "887C773080DE77AC8A2956A226D102E3D68B8E0171D51FEBFD7D38A46CD19167"
+  },
+  {
+    "path": "build-20220303\\sketch\\MPU6050.h",
+    "bytes": 37361,
+    "sha256": "C1213DEF3B5F2C2F5DD7F29DD231FCAABFA5CD5C7910DED158F0F53901482EFD"
+  },
+  {
+    "path": "build-20220303\\sketch\\SmartRobotCarV4.0_V1_20220303.ino.cpp",
+    "bytes": 2493,
+    "sha256": "7C10D751F7D9C988F0358E9B4EA6A61E3AFD3B154AC98EF8709504324F5A305D"
+  },
+  {
+    "path": "build-20220303\\sketch\\SmartRobotCarV4.0_V1_20220303.ino.cpp.d",
+    "bytes": 1543,
+    "sha256": "495603A20492DB0B045B00C6A0E8C572AE811B3AD62C4DD108D3E6B2613C6F2F"
+  },
+  {
+    "path": "build-20220303\\sketch\\SmartRobotCarV4.0_V1_20220303.ino.cpp.merged",
+    "bytes": 1830,
+    "sha256": "3C9EDF3FB1AE65D8A7DEF21DA2CA618D0DD5686E9F9D7986E325816A9407B6EA"
+  },
+  {
+    "path": "build-20220303\\sketch\\SmartRobotCarV4.0_V1_20220303.ino.cpp.merged.libsdetect.d",
+    "bytes": 1458,
+    "sha256": "95BAAEC69D557CF0A4AC544F9E3D06B40D20B8FAE2DF56AF836B1708794D5187"
+  },
+  {
+    "path": "build-20220303\\sketch\\SmartRobotCarV4.0_V1_20220303.ino.cpp.o",
+    "bytes": 10628,
+    "sha256": "4D733E9674CE96889CDE6D1B609FA3E12ED3BAE44177899FE1E20CC8530F4968"
+  },
+  {
+    "path": "build-20220303\\sketch\\.vscode\\arduino.json",
+    "bytes": 352,
+    "sha256": "379F0C2ED121E93938486D7F69C719069BB08CBEDE4EC94C91CDB0D8B90FE4BB"
+  },
+  {
+    "path": "build-20220303\\sketch\\.vscode\\c_cpp_properties.json",
+    "bytes": 1688,
+    "sha256": "F793462FC71C7B2553C8CB2A871D1EFA2BC09B0F7703F49403AF727CA5A08BFB"
+  },
+  {
+    "path": "build-20220303\\sketch\\.vscode\\settings.json",
+    "bytes": 517,
+    "sha256": "20D67CDE3446A0C3A63E26CE17938CC3724C9BF2F7395BF3DC79309C921F8831"
+  }
+]

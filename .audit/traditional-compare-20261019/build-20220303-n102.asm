@@ -1,0 +1,25 @@
+    380c:	e6 e6       	ldi	r30, 0x66	; 102
+    380e:	ee 16       	cp	r14, r30
+    3810:	f1 04       	cpc	r15, r1
+    3812:	09 f0       	breq	.+2      	; 0x3816 <ApplicationFunctionSet::ApplicationFunctionSet_SerialPortDataAnalysis() [clone .part.53] [clone .constprop.14]+0x360>
+    3814:	2d cf       	rjmp	.-422    	; 0x3670 <ApplicationFunctionSet::ApplicationFunctionSet_SerialPortDataAnalysis() [clone .part.53] [clone .constprop.14]+0x1ba>
+    3816:	84 e0       	ldi	r24, 0x04	; 4
+    3818:	90 e0       	ldi	r25, 0x00	; 0
+    381a:	90 93 ea 02 	sts	0x02EA, r25	; 0x8002ea <Application_SmartRobotCarxxx0+0x3>
+    381e:	80 93 e9 02 	sts	0x02E9, r24	; 0x8002e9 <Application_SmartRobotCarxxx0+0x2>
+    3822:	6f ec       	ldi	r22, 0xCF	; 207
+    3824:	71 e0       	ldi	r23, 0x01	; 1
+    3826:	ce 01       	movw	r24, r28
+    3828:	09 96       	adiw	r24, 0x09	; 9
+    382a:	0e 94 b4 19 	call	0x3368	; 0x3368 <ArduinoJson6111_00000::VariantData* ArduinoJson6111_00000::VariantData::getMember<ArduinoJson6111_00000::ConstRamStringAdapter>(ArduinoJson6111_00000::ConstRamStringAdapter) const>
+    382e:	0e 94 3a 0f 	call	0x1e74	; 0x1e74 <ArduinoJson6111_00000::enable_if<ArduinoJson6111_00000::is_integral<unsigned char>::value, unsigned char>::type ArduinoJson6111_00000::variantAs<unsigned char>(ArduinoJson6111_00000::VariantData const*)>
+    3832:	80 93 6d 05 	sts	0x056D, r24	; 0x80056d <Application_FunctionSet+0x20>
+    3836:	81 50       	subi	r24, 0x01	; 1
+    3838:	89 30       	cpi	r24, 0x09	; 9
+    383a:	08 f0       	brcs	.+2      	; 0x383e <ApplicationFunctionSet::ApplicationFunctionSet_SerialPortDataAnalysis() [clone .part.53] [clone .constprop.14]+0x388>
+    383c:	e2 c2       	rjmp	.+1476   	; 0x3e02 <ApplicationFunctionSet::ApplicationFunctionSet_SerialPortDataAnalysis() [clone .part.53] [clone .constprop.14]+0x94c>
+    383e:	e8 2f       	mov	r30, r24
+    3840:	f0 e0       	ldi	r31, 0x00	; 0
+    3842:	eb 5d       	subi	r30, 0xDB	; 219
+    3844:	f3 4e       	sbci	r31, 0xE3	; 227
+    3846:	0c 94 04 37 	jmp	0x6e08	; 0x6e08 <__tablejump2__>

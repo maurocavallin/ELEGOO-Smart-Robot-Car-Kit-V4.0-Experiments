@@ -1,0 +1,16 @@
+#line 1 "D:\\A\\GIT\\maurcavallin\\ELEGOO-Smart\\ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional\\03 Tutorial & Code\\08 SmartRobotCarV4.0_DIY and Program on APP\\SmartRobotCarV4.0_V1_20220303\\.vscode\\settings.json"
+{
+  "files.associations": {
+    "*.sh": "shellscript",
+    "xlocale": "cpp",
+    "memory": "cpp",
+    "array": "cpp",
+    "deque": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "vector": "cpp",
+    "string_view": "cpp",
+    "initializer_list": "cpp",
+    "*.tcc": "cpp"
+  }
+}
