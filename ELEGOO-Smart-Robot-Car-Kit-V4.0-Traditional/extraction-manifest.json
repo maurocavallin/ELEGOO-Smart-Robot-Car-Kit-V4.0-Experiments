@@ -1,0 +1,146 @@
+[
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/.vscode/arduino.json",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/.vscode/arduino.json",
+    "bytes": 139,
+    "sha256": "BE0FBA65D5894327D5031824C6CCA7A43F8B48E075C5630E324592A72D9BDFE5"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/.vscode/c_cpp_properties.json",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/.vscode/c_cpp_properties.json",
+    "bytes": 1466,
+    "sha256": "D98F472220D3A7688BEAA7BE7E76556DD1B147E442796B0FF3444D1C4FC68172"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/.vscode/settings.json",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/.vscode/settings.json",
+    "bytes": 303,
+    "sha256": "6640A86F67CFE4B360915741DAE729490B30B988036F1000B1343E15CC4BF258"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/addLibrary/FastLED-master.zip",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/addLibrary/FastLED-master.zip",
+    "bytes": 331591,
+    "sha256": "382A79E3AA4D63D9BD3B0DADFA8497648FFE329E1A6588846B054384247E5540"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/addLibrary/IRremote.zip",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/addLibrary/IRremote.zip",
+    "bytes": 83631,
+    "sha256": "CA50460494CD569DD5B1C89EE236600DD7E9A888B88FFBF913455E753B76845B"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/addLibrary/NewPing.zip",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/addLibrary/NewPing.zip",
+    "bytes": 12668,
+    "sha256": "D0E6B899544F1F4197AFCD9FC9A3147BD39E406AFB6300C7F84DD28BE4557F3E"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/addLibrary/pitches.zip",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/addLibrary/pitches.zip",
+    "bytes": 767,
+    "sha256": "9B09ACFC6C8626150C195D76905FDD30A7B1B333F2209FFF436A8C11D556F8BD"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/ApplicationFunctionSet_xxx0.cpp",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/ApplicationFunctionSet_xxx0.cpp",
+    "bytes": 69498,
+    "sha256": "E746EE251EDB83696934AC20B357C80348070116B09DD44FE53A08CCD890453C"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/ApplicationFunctionSet_xxx0.h",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/ApplicationFunctionSet_xxx0.h",
+    "bytes": 4650,
+    "sha256": "3B85D67821808759910B8A7256CA78A42CC7A7599CD27145B0D4B5F8DE4CA4B3"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/ArduinoJson-v6.11.1.h",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/ArduinoJson-v6.11.1.h",
+    "bytes": 176817,
+    "sha256": "A0FBC6B94C9D2B93F7D1F46390CF9611A3E8D5151762C8139EC55C8DE3EEEF03"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/DeviceDriverSet_xxx0.cpp",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/DeviceDriverSet_xxx0.cpp",
+    "bytes": 14314,
+    "sha256": "A907BB6782590D1D98DF78F845B1A70D5F0E8890CB4E7D5F215BF04297186793"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/DeviceDriverSet_xxx0.h",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/DeviceDriverSet_xxx0.h",
+    "bytes": 5442,
+    "sha256": "29E004B1210FF1A3F75698CCD3B8E81EA309996CEEF2623CC3DF8D11554A77B5"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/I2Cdev.cpp",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/I2Cdev.cpp",
+    "bytes": 56405,
+    "sha256": "0FC7057247E55CBBA80008559C620E34ABD762295FF1F98D00A32A6D3000E433"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/I2Cdev.h",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/I2Cdev.h",
+    "bytes": 7005,
+    "sha256": "758BDCD455FB738EEE02353F800DBD96A5FD05AB558B2AC190E10A9300D0845F"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/IRremote.cpp",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/IRremote.cpp",
+    "bytes": 31769,
+    "sha256": "89D7513F36F97BF50239A96D1856068C87A9FE69E963A37DCD239DCA8DB5A638"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/IRremote.h",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/IRremote.h",
+    "bytes": 4213,
+    "sha256": "3F00F61E9F544F6BA712C61B431BD34AC28B11508DC1C1D8E74EA75109D2DCE4"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/IRremoteInt.h",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/IRremoteInt.h",
+    "bytes": 14917,
+    "sha256": "7763EC8946B6551EFBC2F5A59291C45F6BFCC51041791751A2A38BB49DFCEBA9"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/MPU6050.cpp",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/MPU6050.cpp",
+    "bytes": 46296,
+    "sha256": "CC5DE0D97606D0DE271DC59C9FC3D6449C98C0775C5334BCB294F6CAFA9C996D"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/MPU6050.h",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/MPU6050.h",
+    "bytes": 37160,
+    "sha256": "ED69EB4F09D676BAAF9EB5E855AEF3D257C87304EA19E5AE8B16A32AC7B29F3A"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/MPU6050_getdata.cpp",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/MPU6050_getdata.cpp",
+    "bytes": 2314,
+    "sha256": "FB55525E5D775FD68CC260A67642F2AC4EA74D5E4E9BD1FD1E9DC61F7DBD1973"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/MPU6050_getdata.h",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/MPU6050_getdata.h",
+    "bytes": 692,
+    "sha256": "072A03859D5A8B2B034FB746651F937FABD4C4345BDE3C7391B438F1C1321515"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/README.txt",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/README.txt",
+    "bytes": 773,
+    "sha256": "71BD25716A93243BAEFE099D1BB1B1E95FF2C9323BF110602337B2B74A1EC7B8"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/SmartRobotCarV4.0_V1_20230201.hex",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/SmartRobotCarV4.0_V1_20230201.hex",
+    "bytes": 84908,
+    "sha256": "A6973AECFA35424FB3CEA79617B914B91B0869B0FAA6E4133CEB0F56AE46AB21"
+  },
+  {
+    "archive_entry": "ELEGOO Smart Robot Car Kit V4.0 2023.02.01/02 Manual & Main Code & APP/02 Main Program   (Arduino UNO)/TB6612 & MPU6050/SmartRobotCarV4.0_V1_20230201/SmartRobotCarV4.0_V1_20230201.ino",
+    "extracted_relative_path": "SmartRobotCarV4.0_V1_20230201/SmartRobotCarV4.0_V1_20230201.ino",
+    "bytes": 1583,
+    "sha256": "96EB7384F6DF735E50D305127B49849ACD20EEFD9D54F0C045E6A2F20C4531A5"
+  }
+]

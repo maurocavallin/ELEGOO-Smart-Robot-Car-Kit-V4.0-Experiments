@@ -1,5 +1,13 @@
 # Handoff — ELEGOO Smart Robot Car V4.0
 
+## Aggiornamento: recuperata la variante tradizionale ufficiale
+
+Il 18 ottobre 2026, su richiesta dell'utente di eseguire il punto 1, scaricato il pacchetto ufficiale completo 2023.02.01 (254472550 byte), attraverso il link della pagina ELEGOO. Archivio in `.audit/downloads/ELEGOO-Smart-Robot-Car-V4.0-2023.02.01.zip`; SHA-256 `7CFDD6E0CD39C48BF070A758519497ED1B1DA92A5312F4255460A6E95CA61055`. Un secondo tentativo sul server di destinazione del redirect è terminato con archivio identico, conservato come `...-direct.zip` nella stessa cartella.
+
+Estratti senza modifiche i 24 file della cartella principale **TB6612 & MPU6050**, in `ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional/SmartRobotCarV4.0_V1_20230201/`. Include sorgenti, quattro ZIP librerie e HEX ELEGOO. [Provenienza e limiti](../ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional/PROVENIENZA.md), con manifest e hash per file. README conferma TB6612 + GY-521; sorgenti: PWM D5/D6, direzioni D7/D8, STBY D3. Copiati anche tre PDF in `doc/riferimenti/elegoo-2023.02.01/` (non ancora analizzati).
+
+Controllo aggiuntivo offline: l'HEX incluso ha checksum validi, contiene 30182 byte e non coincide con la regione applicativa del dump stock. Rapporto in `.audit/backups/uno-stock-20261018-221627/comparison-official-hex.json`. Questo non misura la distanza funzionale né dimostra che il file HEX sia la build dei sorgenti allegati. Candidato non ancora compilato; nessun upload effettuato. Prossimo passo della sequenza discussa: compilare questa variante invariata e registrare l'ambiente.
+
 ## Aggiornamento: backup flash acquisito il 18 ottobre 2026, ore 22:17
 
 Questa sezione aggiorna le indicazioni storiche sottostanti: la radice attuale è `D:\A\GIT\maurcavallin\ELEGOO-Smart-Robot-Car-Kit-V4.0-Experiments`.
@@ -12,7 +20,9 @@ Backup: [riepilogo e limiti](../.audit/backups/uno-stock-20261018-221627/README.
 
 Intervallo restituito: `0x0000–0x7FFF`. Vettore iniziale AVR plausibile, dati non uniformi e 496 byte diversi da FF negli ultimi 512 byte, compatibili con presenza del bootloader. Non effettuata verifica indipendente via ISP né prova di ripristino. **EEPROM, fuse e lock bit non acquisiti: non è un backup completo del chip.** Le stringhe includono `error:deserializeJson` e `MPU6050_chip_id: `; nessuna versione certa identificata. Non confondere questi dump stock con la precedente build di prova in `.audit/build-old/`.
 
-Prossimo passo possibile: analizzare il dump e confrontare la regione applicativa con candidati TB6612 + MPU6050; valutare separatamente l'acquisizione EEPROM secondo il supporto effettivo del bootloader. Non è stata autorizzata alcuna scrittura del firmware.
+L'utente ha poi deciso di lasciare stare EEPROM, fuse e lock bit. Per un futuro normale upload USB si conserva il backup flash; controllare preventivamente se il nuovo sketch modifica EEPROM. Nessuna scrittura del firmware autorizzata.
+
+Eseguito un primo confronto offline con la build precedente DRV8835: byte diversi già all'offset 6, nessuna identità di build. Le due stringhe stock citate sopra esistono nei sorgenti precedenti ma sono commentate e assenti dalla relativa build. Indizio di parentela con la famiglia tradizionale, non identificazione della release né misura della distanza funzionale. Dettagli e limiti nel [primo confronto](../.audit/backups/uno-stock-20261018-221627/comparison-initial.md). Prossima strada consigliata: cercare la variante ufficiale tradizionale TB6612 + MPU6050 e confrontare una build riproducibile; poi eventualmente disassemblare per confrontare singole funzioni.
 
 Salvato il 18 ottobre 2026. Punto di ripresa della conversazione e indice delle evidenze raccolte. Non occorre ripetere l'inventario o chiedere conferme sulle identificazioni già acquisite.
 

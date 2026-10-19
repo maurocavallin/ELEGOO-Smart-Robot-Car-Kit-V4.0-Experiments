@@ -1,0 +1,20 @@
+{
+  "compared_at": "2026-10-18T22:32:03.0354985+02:00",
+  "hex_file": "ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional/SmartRobotCarV4.0_V1_20230201/SmartRobotCarV4.0_V1_20230201.hex",
+  "hex_sha256": "A6973AECFA35424FB3CEA79617B914B91B0869B0FAA6E4133CEB0F56AE46AB21",
+  "stock_file": ".audit/backups/uno-stock-20261018-221627/flash-read-1.bin",
+  "stock_sha256": "647AD2D9C05A940B7A5B73455ED9AF43EE7CB4C2271E7F24F17398D1719FE83D",
+  "hex_checksums_valid": true,
+  "hex_data_records": 1887,
+  "hex_highest_address": 30181,
+  "hex_data_bytes_in_application": 30182,
+  "application_compared_start": 0,
+  "application_compared_end": 32255,
+  "hex_gaps_filled_with": "FF",
+  "mismatching_explicit_hex_bytes": 29178,
+  "mismatching_application_bytes": 29934,
+  "first_mismatch": 6,
+  "application_identical_with_ff_padding": false,
+  "bootloader_compared": false,
+  "source_build_reproduced": false
+}
