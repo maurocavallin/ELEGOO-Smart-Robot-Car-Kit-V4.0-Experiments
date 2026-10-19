@@ -1,5 +1,7 @@
 # Confronto mirato del disassemblato stock / Traditional
 
+**Aggiornamento successivo, 19 ottobre 2026:** [ricostruita esattamente l'intera applicazione stock](RICOSTRUZIONE_STOCK.md) usando gli stessi sorgenti Traditional 20230201 invariati con FastLED 3.5.0 ufficiale. Zero byte diversi in `0x0000–0x7DFF`, verificati con tre build e due metodi di confronto. Le conclusioni sottostanti descrivono la fase precedente, con FastLED 3.2.10; il limite sull'identità applicativa è stato superato. Bootloader escluso.
+
 Data: 19 ottobre 2026. Solo analisi offline dei file, nessun accesso o upload al robot. Sorgenti e dump originali invariati.
 
 ## Risultato

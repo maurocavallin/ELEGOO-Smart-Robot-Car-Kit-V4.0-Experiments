@@ -4,6 +4,10 @@ Questa cartella raccoglie le scoperte sul kit fisico e il confronto tra i due re
 
 ## Documenti
 
+- [Step1 — base di sviluppo](../ELEGOO-Smart-Robot-Car-Kit-V4.0-Step1/README.md): sorgenti Arduino da evolvere, dipendenze fissate e compilazione iniziale identica allo stock.
+
+- [Ricostruzione esatta dell'applicazione stock](RICOSTRUZIONE_STOCK.md): Traditional 20230201 invariata con FastLED 3.5.0 riproduce tutti i byte applicativi; prove e script di riproduzione.
+
 - [Confronto stock / Traditional](CONFRONTO_STOCK_TRADITIONAL.md): build, confronto del disassemblato e verifica del comando joystick 102.
 
 - [HANDOFF](HANDOFF.md): stato completo della sessione e istruzioni per riprendere dal backup Arduino stock.
@@ -14,14 +18,16 @@ Questa cartella raccoglie le scoperte sul kit fisico e il confronto tra i due re
 ## Mappa del workspace
 
 ```text
-ELEGOO-Smart-Robot-Car/
+ELEGOO-Smart/
 |-- doc/                                  Documentazione comune
 |-- ELEGOO-Smart-Robot-Car-Kit-V4.0/        Repository precedente riorganizzato
 |-- ELEGOO-Smart-Robot-Car-Kit-V4.0-New/    Repository New
+|-- ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional/ Pacchetto ufficiale di riferimento
+|-- ELEGOO-Smart-Robot-Car-Kit-V4.0-Step1/  Base di sviluppo Arduino verificata contro lo stock
 `-- .audit/                               Build, log, librerie e rendering locali
 ```
 
-La radice comune non è attualmente un repository Git: questi documenti non sono versionati dai due repository sottostanti.
+La radice comune è ora un repository Git contenitore. Le indicazioni storiche nelle analisi descrivono anche la precedente organizzazione del workspace.
 
 Il repository precedente è stato riorganizzato dall'utente: rimossi i quattro ZIP principali e ridotto l'annidamento del firmware Arduino. I percorsi attuali sono:
 

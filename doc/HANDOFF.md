@@ -1,5 +1,17 @@
 # Handoff — ELEGOO Smart Robot Car V4.0
 
+## Nuova base di sviluppo: Step1
+
+Su richiesta dell'utente, creata [`ELEGOO-Smart-Robot-Car-Kit-V4.0-Step1/`](../ELEGOO-Smart-Robot-Car-Kit-V4.0-Step1/README.md) per iniziare lo sviluppo senza una direzione funzionale ancora fissata. Sorgenti Arduino Traditional 20230201 copiati byte per byte in `src/SmartRobotCarV4.0_V1_20230201/`; FastLED 3.5.0 e Servo 1.3.0 incluse in `libraries/`. Nessuna modifica funzionale iniziale. Non trasferiti ZIP librerie obsoleti, HEX ufficiale diverso dallo stock o impostazioni editor.
+
+`build.ps1 -VerifyStock` completato con esito positivo: SHA-256 applicativo `e85885ca41dda52b0a98833577d5a7f72c30453dfd41955e38cf56464a7fd9e9`, identico allo stock su 32.256 byte, zero file di baseline modificati/mancanti. Flash 30.946 byte, RAM statica 1.169. `baseline.json` registra versioni e hash iniziali; `.build/` contiene output e log, esclusi da Git. Il normale `build.ps1` permette anche build diverse dallo stock per le modifiche future; `-VerifyStock` richiede invece l'identità. Non aggiornare l'hash stock per mascherare differenze intenzionali. Da ora lavorare in Step1, mantenendo Traditional e gli artefatti di analisi come riferimenti. Nessun accesso al robot o upload; ESP32 invariata. Nessun commit creato dall'assistente.
+
+## Aggiornamento 19 ottobre 2026: applicazione stock ricostruita esattamente
+
+**Risultato successivo alle analisi sottostanti: identità integrale dell'applicazione dimostrata.** Traditional TB6612+MPU6050 principale 20230201, sorgenti invariati, con **FastLED 3.5.0 ufficiale**, Servo 1.3.0, core AVR 1.8.8, GCC 7.3.0 e CLI 1.5.1 genera esattamente i byte stock in `0x0000–0x7DFF`: zero differenze su 32.256 byte, contro entrambe le letture. Tre build coincidenti, confronto Intel HEX con checksum e verifica indipendente mediante avr-objcopy e confronto diretto dei byte. Flash 30.946 byte; RAM statica 1.169 byte. Non serve modificare il codice del robot. L'ambiente storico ELEGOO non è identificato univocamente; il bootloader è escluso.
+
+[Rapporto e riproduzione](RICOSTRUZIONE_STOCK.md). Artefatti permanenti in `.audit/stock-rebuild-20261019/`: sorgenti copiati e verificati invariati, dipendenze 3.5.0 e Servo archiviate, prove precedenti, log, ELF/HEX, disassemblati, `verification.json`, `results.json`, `reproduce.ps1` e `verify.py`. La sola protezione countFPS in una copia di FastLED 3.2.10 e FastLED 3.3.3 ufficiale non bastavano. Gli originali del robot, la vecchia FastLED e i backup sono invariati. Nessun accesso al robot, upload o modifica ESP32. Nessun commit creato.
+
 ## Aggiornamento 19 ottobre 2026: confronto mirato stock / Traditional
 
 Workspace attuale: `D:\A\GIT\maurcavallin\ELEGOO-Smart`, ora repository Git contenitore. I percorsi delle sezioni storiche sottostanti descrivono stati precedenti. Recuperata integralmente la cartella temporanea in [`.audit/traditional-compare-20261019/`](../.audit/traditional-compare-20261019/): 352 file verificati SHA-256 rispetto agli originali, con manifest `recovery-manifest.json`. Inclusi rapporti, disassemblati, estratti N=102, log, configurazione CLI, patch e entrambe le cartelle di build con ELF/HEX. Applicata `note-confronto.patch`, quindi aggiornati i riferimenti alla copia permanente. Temporanei conservati. Non ripetere i confronti prima di consultare questi artefatti. Nessun accesso al robot o modifica dell'ESP32 autorizzati per questa ripresa.

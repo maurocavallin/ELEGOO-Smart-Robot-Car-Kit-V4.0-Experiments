@@ -1,0 +1,912 @@
+{
+  "target": "arduino:avr:uno",
+  "sketch": "src/SmartRobotCarV4.0_V1_20230201",
+  "toolchain": {
+    "arduino_cli": "1.5.1",
+    "arduino_avr_core": "1.8.8",
+    "avr_gcc_package": "7.3.0-atmel3.6.1-arduino7"
+  },
+  "libraries": {
+    "FastLED": "3.5.0",
+    "Servo": "1.3.0"
+  },
+  "source_origin": "../ELEGOO-Smart-Robot-Car-Kit-V4.0-Traditional/SmartRobotCarV4.0_V1_20230201",
+  "application_bytes": 32256,
+  "application_sha256": "e85885ca41dda52b0a98833577d5a7f72c30453dfd41955e38cf56464a7fd9e9",
+  "stock_full_sha256": "647ad2d9c05a940b7a5b73455ed9af43ee7cb4c2271e7f24f17398d1719fe83d",
+  "bootloader_included": false,
+  "files": [
+    {
+      "path": "libraries/FastLED/.github/workflows/build.yml",
+      "sha256": "b466fefa58d082840100c38fd137e757c15e55a9a426cbc0db63416321cfcae7"
+    },
+    {
+      "path": "libraries/FastLED/.gitignore",
+      "sha256": "7943856d61bc2703ed384ad299f6dec0e4f2952c04f2e287caad325a2f0745ee"
+    },
+    {
+      "path": "libraries/FastLED/ci/ci-compile",
+      "sha256": "d99b7094c59f74621cd949c842689676953e9377818abcc63ea12cc4b24a1d00"
+    },
+    {
+      "path": "libraries/FastLED/code_of_conduct.md",
+      "sha256": "8517f7a9003ca9aa3f54e98e7f8c640ecd6c698aa4c47e160e34701b1b877667"
+    },
+    {
+      "path": "libraries/FastLED/component.mk",
+      "sha256": "c4a0fe0b838bf8846a9e485d4ff6650121abed7ab8a202ce7572d69d7a315270"
+    },
+    {
+      "path": "libraries/FastLED/docs/Doxyfile",
+      "sha256": "6cd2f66f6bd2651b9baf85bbc7d508ae8356600d4963572b6bde5d8acd627938"
+    },
+    {
+      "path": "libraries/FastLED/docs/mainpage.dox",
+      "sha256": "6de93e60039d3163620c212fcd970da56f20b3ba10a9aa935832357ef560ae22"
+    },
+    {
+      "path": "libraries/FastLED/examples/AnalogOutput/AnalogOutput.ino",
+      "sha256": "9fcbd9038c7fe57dc0ae9b27c16022ba104da8d94d5edb75d06d0cfaa414f1e4"
+    },
+    {
+      "path": "libraries/FastLED/examples/Blink/Blink.ino",
+      "sha256": "9c2a5180b792ae31d5974b1a8ef2da8ab1f197085741d3743447e1ce117c8ac3"
+    },
+    {
+      "path": "libraries/FastLED/examples/ColorPalette/ColorPalette.ino",
+      "sha256": "3c6ae2df3d246c9b044ee73951fc22c2f41bc63d6f82107d4340c415ff251a69"
+    },
+    {
+      "path": "libraries/FastLED/examples/ColorTemperature/ColorTemperature.ino",
+      "sha256": "e293c7a404d0b14d4d0d72d33ba8c9c5f1bcec86117e1845200d91413adfeb02"
+    },
+    {
+      "path": "libraries/FastLED/examples/Cylon/Cylon.ino",
+      "sha256": "0b73bd286dc56e1dd63e143e921744cad19bf2f6840ac91a3cc6160248074ed3"
+    },
+    {
+      "path": "libraries/FastLED/examples/DemoReel100/DemoReel100.ino",
+      "sha256": "1fbcb0b91ebeb40c673e4562dac2c43ced5ff5006bc8f924747b97fb86e933a9"
+    },
+    {
+      "path": "libraries/FastLED/examples/Fire2012/Fire2012.ino",
+      "sha256": "3d7205c861514fed646325560ba4b58fe693289ca6d835d9b1c9e2dab1b46518"
+    },
+    {
+      "path": "libraries/FastLED/examples/Fire2012WithPalette/Fire2012WithPalette.ino",
+      "sha256": "6de30c956b948139ba3b5c7ab45792af7af2dbbe337e8cd340a80699bbd78fb1"
+    },
+    {
+      "path": "libraries/FastLED/examples/FirstLight/FirstLight.ino",
+      "sha256": "fffcbc21dd8c710e302daa2c495e74efa462726b2f70ca31fcc8e51fc9d82f86"
+    },
+    {
+      "path": "libraries/FastLED/examples/Multiple/ArrayOfLedArrays/ArrayOfLedArrays.ino",
+      "sha256": "16c9a31cb40f58a26cf3c79737f11fff23c1eea39bd6078922966dd1c7b68f37"
+    },
+    {
+      "path": "libraries/FastLED/examples/Multiple/MirroringSample/MirroringSample.ino",
+      "sha256": "34a51f7add4e8b17d118c25bcee4ae21d2fd2be6c98a26c24053c9858fccda19"
+    },
+    {
+      "path": "libraries/FastLED/examples/Multiple/MultiArrays/MultiArrays.ino",
+      "sha256": "60c942a989f3313e0708b9f564a1815f2ca937d44b371528ddf4963e3f4e39a1"
+    },
+    {
+      "path": "libraries/FastLED/examples/Multiple/MultipleStripsInOneArray/MultipleStripsInOneArray.ino",
+      "sha256": "1f89938aae732f2a0b874e66ed114b7df5ced3d736223d1392f63c8687c304c3"
+    },
+    {
+      "path": "libraries/FastLED/examples/Multiple/OctoWS2811Demo/OctoWS2811Demo.ino",
+      "sha256": "f9c798f651179ce1faa2f87256bd9df5038fe0669668940376424aaa29ae39b3"
+    },
+    {
+      "path": "libraries/FastLED/examples/Multiple/ParallelOutputDemo/ParallelOutputDemo.ino",
+      "sha256": "de53d03aacb9159a0f5fcabc02c6b245f402d5af409e547b6c18d07817b07d32"
+    },
+    {
+      "path": "libraries/FastLED/examples/Noise/Noise.ino",
+      "sha256": "a97d848f541fc61a1fb75720ffb6b23e5790c10ef669f43ecbcf8e48956b2212"
+    },
+    {
+      "path": "libraries/FastLED/examples/NoisePlayground/NoisePlayground.ino",
+      "sha256": "f6d27ad893c056238abf6a396eb54617935e093b6195f9ec3bb9a8fe97a732fb"
+    },
+    {
+      "path": "libraries/FastLED/examples/NoisePlusPalette/NoisePlusPalette.ino",
+      "sha256": "0bf75bd218a3604da9dcb661eff235ade88148eac2cfcf8fc25e77087dda5119"
+    },
+    {
+      "path": "libraries/FastLED/examples/Pacifica/Pacifica.ino",
+      "sha256": "c8582c6e6b902ee2a6d6432ccb88e16efe34ed4ee66794c3f4a653a09ca008d6"
+    },
+    {
+      "path": "libraries/FastLED/examples/Pintest/Pintest.ino",
+      "sha256": "76f43bca3eafd61b4f084083858dfa3bbe324c7ce3f02c97c6a112d00d55052f"
+    },
+    {
+      "path": "libraries/FastLED/examples/Ports/PJRCSpectrumAnalyzer/PJRCSpectrumAnalyzer.ino",
+      "sha256": "db7715a09f6c687b061209ef2f5489f970b7921850b8e59d524f1e3f22d20cd2"
+    },
+    {
+      "path": "libraries/FastLED/examples/Pride2015/Pride2015.ino",
+      "sha256": "852c5364ae424d59786fbe4a61f35cca2199220bd7ee4395a2e54b2f3f5d62f7"
+    },
+    {
+      "path": "libraries/FastLED/examples/RGBCalibrate/RGBCalibrate.ino",
+      "sha256": "96234f64af1f5e2f1f1c0fdccee60ceeb580dad02204fd9973891cd78126a5d5"
+    },
+    {
+      "path": "libraries/FastLED/examples/RGBSetDemo/RGBSetDemo.ino",
+      "sha256": "d76f181453f61ec87e4c30659109a37d64d3e5ba8e420658478616ec482b7f2d"
+    },
+    {
+      "path": "libraries/FastLED/examples/SmartMatrix/SmartMatrix.ino",
+      "sha256": "afeccc6e988cb5a70ea586d109733f0f325176087f5cf17a4db0a81429c9fcd9"
+    },
+    {
+      "path": "libraries/FastLED/examples/TwinkleFox/TwinkleFox.ino",
+      "sha256": "8f9734f147bcd506ba58d3cfddb7a6aed9f88a3dc50ff1f5bb20e528df42e732"
+    },
+    {
+      "path": "libraries/FastLED/examples/XYMatrix/XYMatrix.ino",
+      "sha256": "7739e99d37afe72a9565d86923e0bdec4346175cd78a2164007f446f18ef3597"
+    },
+    {
+      "path": "libraries/FastLED/extras/AppleII.s65",
+      "sha256": "8bd06a6052104065e5762dc34df600fc4c66d4a84959fed9976f57eba7179f5d"
+    },
+    {
+      "path": "libraries/FastLED/extras/FastLED6502.s65",
+      "sha256": "fb94e852c3ab798fef7ff641aa1b0c1a8de10d4940a4ce82f3db338d34ee3a7a"
+    },
+    {
+      "path": "libraries/FastLED/extras/RainbowDemo.bin.zip",
+      "sha256": "baa718aef1ea45fe70f99b831d305319354fe6f65c6335713469d7cc73b99a06"
+    },
+    {
+      "path": "libraries/FastLED/extras/RainbowDemo.s65",
+      "sha256": "89f487a1f1a3c4b1927631eb04ca8275479be73d48a8b83478aebf99986ba07c"
+    },
+    {
+      "path": "libraries/FastLED/keywords.txt",
+      "sha256": "82adb7e1f37234e6165567238f97d2036804f330e76d0762b32445c3c02a1e48"
+    },
+    {
+      "path": "libraries/FastLED/library.json",
+      "sha256": "c4304f04c2145d6b7804469e8e4d87295f8136951f715db56f22b2e7091a6af3"
+    },
+    {
+      "path": "libraries/FastLED/library.properties",
+      "sha256": "94eceb64ad089e211332c2ee4d7762842ca48230b0225520243758f6f27b2787"
+    },
+    {
+      "path": "libraries/FastLED/LICENSE",
+      "sha256": "4358d4c37f1305b43a3117a6a12780f666bf285538de0b28991613c0ccacecd8"
+    },
+    {
+      "path": "libraries/FastLED/PORTING.md",
+      "sha256": "a4b9e0f6e5d614ebdce3281335a8871f6c3a10c2897332da12b8c7e5dff29ce5"
+    },
+    {
+      "path": "libraries/FastLED/README.md",
+      "sha256": "c9e01a7004b0f1aaeace48ed98121e44effdfe6dd1313ada501dfd4b52b6894b"
+    },
+    {
+      "path": "libraries/FastLED/release_notes.md",
+      "sha256": "d3e2f9ece540ce7badd93711b6ba8cce7a66ec1435a03cad8441a83354cd624f"
+    },
+    {
+      "path": "libraries/FastLED/src/bitswap.cpp",
+      "sha256": "a8506b5ebc39e43bfca576a49a9a623a403d1cd8a3a2dff0df3142fdb218b280"
+    },
+    {
+      "path": "libraries/FastLED/src/bitswap.h",
+      "sha256": "dcc7574ef63169b94f851be65cf0fdb8b375804b5ae478cfb1820ec14c7f4735"
+    },
+    {
+      "path": "libraries/FastLED/src/chipsets.h",
+      "sha256": "d217744a7e251130a24e857533a675cd9a41edcdbe07420cc7291d0af29c8ee9"
+    },
+    {
+      "path": "libraries/FastLED/src/color.h",
+      "sha256": "143bfce728135e40f777f3e3238ec4cb35ffe5a9085d4a1f2f14857c5f9ca8fe"
+    },
+    {
+      "path": "libraries/FastLED/src/colorpalettes.cpp",
+      "sha256": "f4526515d534c5e27c1ee566a2456db7388743f63c3b9b0ad28fecea640fb18b"
+    },
+    {
+      "path": "libraries/FastLED/src/colorpalettes.h",
+      "sha256": "4f80176425da66f4e8e572c50c1811d64319d406c42e90684647c6e71fcd332c"
+    },
+    {
+      "path": "libraries/FastLED/src/colorutils.cpp",
+      "sha256": "0f64a61b9e9950c5f9d82f528282ae4c4fab06205ec67d702adb3f5fad9f87de"
+    },
+    {
+      "path": "libraries/FastLED/src/colorutils.h",
+      "sha256": "1fd12f94c0670724ddbbec8eb73cd447668571f1840b953789d7bd74c765a7bd"
+    },
+    {
+      "path": "libraries/FastLED/src/controller.h",
+      "sha256": "bdd2de55219f0837db8e6b1863f4fb870228608b86df2d5b5f985511b14bf775"
+    },
+    {
+      "path": "libraries/FastLED/src/cpp_compat.h",
+      "sha256": "1c80e62d0bffe09dd290ed5506e9b8c07f44b983d617d32acb7470448a41e7b6"
+    },
+    {
+      "path": "libraries/FastLED/src/dmx.h",
+      "sha256": "87057d8c309f8a8a439cdfa5733ee2c6e405bee207549c59c4ccd3badad08f57"
+    },
+    {
+      "path": "libraries/FastLED/src/fastled_config.h",
+      "sha256": "5ee0c02f6675b67b7951b4e2e0118e33b41a94d3b47cbbccf6264d084143fcfa"
+    },
+    {
+      "path": "libraries/FastLED/src/fastled_delay.h",
+      "sha256": "7c1ddb5c88c274b212982818f4f66afb576d9d3d3d39dddc7e0b8124d0371c2c"
+    },
+    {
+      "path": "libraries/FastLED/src/fastled_progmem.h",
+      "sha256": "d0cabfb92f852b0fcb51160f9f678168d7b6981ca71faf518d59cc9183ec0884"
+    },
+    {
+      "path": "libraries/FastLED/src/FastLED.cpp",
+      "sha256": "2424def12829326f8b75778d783e7a79da5a2c5b7fa522de0cf517f98ceab42a"
+    },
+    {
+      "path": "libraries/FastLED/src/FastLED.h",
+      "sha256": "40cf389bc51c9959082eba8bedc365e7633e0bf09eb8c869a37ec233f55079b4"
+    },
+    {
+      "path": "libraries/FastLED/src/fastpin.h",
+      "sha256": "b92383f20676805eebfeb4f8bfaf1c01f8b39dbbe9a76411ddaea5d1f35383e2"
+    },
+    {
+      "path": "libraries/FastLED/src/fastspi_bitbang.h",
+      "sha256": "94c10f986d72004f5123f9ba0d1db89d01b9830a39defe005546154a38768ce1"
+    },
+    {
+      "path": "libraries/FastLED/src/fastspi_dma.h",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "libraries/FastLED/src/fastspi_nop.h",
+      "sha256": "aa26e2e651fe12ff0c1a60bb55abf2fc41540c99fdf7b6511702cd64e4723b68"
+    },
+    {
+      "path": "libraries/FastLED/src/fastspi_ref.h",
+      "sha256": "81b0b3a492b17a3a72396ccbf9761538876fd546fda0c5aa989a141a8da56aa3"
+    },
+    {
+      "path": "libraries/FastLED/src/fastspi_types.h",
+      "sha256": "6bdccc45b4cfedec122414a34aaed8bf8fa6cb311e69935976297abd63054a32"
+    },
+    {
+      "path": "libraries/FastLED/src/fastspi.h",
+      "sha256": "a7c2ade2862d154beb373b624e239d1f85326a9123bfeed0db63fcdc4596e479"
+    },
+    {
+      "path": "libraries/FastLED/src/hsv2rgb.cpp",
+      "sha256": "df4be1c7821242c7508e1bd45256c610376ceca3b9ace8c89af8ce5e2ceef5ec"
+    },
+    {
+      "path": "libraries/FastLED/src/hsv2rgb.h",
+      "sha256": "f10ea16730ae4ed83c1a3db26af8f97db7d65150d67550331c372a5d2abd33bb"
+    },
+    {
+      "path": "libraries/FastLED/src/led_sysdefs.h",
+      "sha256": "a333e88fcf4468da925d70de6e538c4e335aa08ad74839e999d3dc1febb5ea9d"
+    },
+    {
+      "path": "libraries/FastLED/src/lib8tion.cpp",
+      "sha256": "8e12f76c8b40c18cde248b42671564534a6db4ac87348812fa79df15b9e70940"
+    },
+    {
+      "path": "libraries/FastLED/src/lib8tion.h",
+      "sha256": "9afa2a678dc030724efc98d043efda1ade689dced83605dc7d8b3302a687b22d"
+    },
+    {
+      "path": "libraries/FastLED/src/lib8tion/math8.h",
+      "sha256": "9e2623d7f81b14304ca79e69a061c94fa7d6cbf0708eb5781e177e718925a695"
+    },
+    {
+      "path": "libraries/FastLED/src/lib8tion/random8.h",
+      "sha256": "c31bfb3926a1fe9a0eadbbdb099855a55556a3607ad10d92f37550e270979e94"
+    },
+    {
+      "path": "libraries/FastLED/src/lib8tion/scale8.h",
+      "sha256": "60ac31c1ec58dfb6915b5eb83b46eb03d60e35746184cf34848baf89a04a4fa4"
+    },
+    {
+      "path": "libraries/FastLED/src/lib8tion/trig8.h",
+      "sha256": "94dce2b33feb7ce0cb093a378b92b0d84d0a7b0c755902b9944434cf52c27cf7"
+    },
+    {
+      "path": "libraries/FastLED/src/noise.cpp",
+      "sha256": "94c8e400b3f1997200c83e0f0d889ae961920a00dea2b7ec5f71a8e020adbc3c"
+    },
+    {
+      "path": "libraries/FastLED/src/noise.h",
+      "sha256": "866bb66f87eff1e960471d3a491c8787a2f1edcc2bad1587ca7a2d7effa67dd6"
+    },
+    {
+      "path": "libraries/FastLED/src/pixelset.h",
+      "sha256": "60d94aeae5a96a7f4cacc4303a5fad6857c1a1c00fcd34d924e4fb513486dbac"
+    },
+    {
+      "path": "libraries/FastLED/src/pixeltypes.h",
+      "sha256": "aa009be87ff43d49bda4641bb7f36d556cdc3abf695ec5d1a9683ef35d569c70"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms.cpp",
+      "sha256": "de7331298bfb2327721a9802efee4209a5320a9ec151d201c89684afa8a7cdc3"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms.h",
+      "sha256": "298338a392eab2a8f4295baf1d109514efd35d0c8b9751a377230f1942252b4a"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/apollo3/clockless_apollo3.h",
+      "sha256": "5e719d859dee9c72e4fad167661d32461892469466b694b82411ce3173fbddfb"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/apollo3/fastled_apollo3.h",
+      "sha256": "3232e5ffe23cee8bbc7245eeb1fc4ba82b7902e90c328aeef9de52954ee0237f"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/apollo3/fastpin_apollo3.h",
+      "sha256": "7975e5bcb987354fc0d6f552a5d626a279aad2e28e452a704ba252c3a25c1f87"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/apollo3/fastspi_apollo3.h",
+      "sha256": "40a25fb9e3cb9d11602d1297cfd9ffd5155092752b695b18e262d903c61b6af2"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/apollo3/led_sysdefs_apollo3.h",
+      "sha256": "baa703a6533412ede8828fdbe7f7410f04964e58c29c10b31f96dcbf9790e996"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/common/m0clockless.h",
+      "sha256": "392c784d12463294b788b87c096ddae46a540afdd84149828e26a77a636e7f8c"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/d21/clockless_arm_d21.h",
+      "sha256": "58add626373d3400cd97e7ff5e9f2c7b5f51b887c3c812266afab7c1104f5192"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/d21/fastled_arm_d21.h",
+      "sha256": "df75cebc74dad2c14400cab56714df9368e237286f10572cdde5aad920b40314"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/d21/fastpin_arm_d21.h",
+      "sha256": "be4e999982e2cffd8c90ba0dcdf185aa1a71f16e7b253675c817aed94204dadf"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/d21/led_sysdefs_arm_d21.h",
+      "sha256": "72be735316b8fa20f4a473b5497edc253d73d2376d68f8378a79335293d402bc"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/d51/clockless_arm_d51.h",
+      "sha256": "7909fd204267555635b8af58a4cc5b85d90d05a3ec3c04a896b70cbe5160d1c4"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/d51/fastled_arm_d51.h",
+      "sha256": "262e196b2620355067bd35bd11d82161fcf5d60a8fd8856a733bb72ae2471ce2"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/d51/fastpin_arm_d51.h",
+      "sha256": "4c0bb2d31d04ad905035a1d311a101af4a2400daf7e7e1f0885ec08dfe1e2f34"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/d51/led_sysdefs_arm_d51.h",
+      "sha256": "1e91767b0cfdbb79556bf46af93942bef9ffcbe274d1083a8700b0ec64c88c3e"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/d51/README.txt",
+      "sha256": "312bc0f14ab17237b79a1a6f67e158f99ddc1e5f0dd12c7ceda194a416a26a47"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k20/clockless_arm_k20.h",
+      "sha256": "502a35b07c606f89e1b4afcd329958d32292b0cd848332d896099fd0bf6db76e"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k20/clockless_block_arm_k20.h",
+      "sha256": "1f6eebf3c1fbca757777c617255a1d9f3611064aeb77fbcc6cde45806aa6c8d4"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k20/fastled_arm_k20.h",
+      "sha256": "f346e3136deef5cbea8494c10298f8365f5aadb0c7996d89d49c10e07344f619"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k20/fastpin_arm_k20.h",
+      "sha256": "ece47e0fc13288f06a141fc5b579ee063676c2e17b906bf7af91baefc57f2a19"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k20/fastspi_arm_k20.h",
+      "sha256": "e692560a35b6fd55b77f1855600b13c4d0e9ee6642ded4a01d2884cf6eb4d961"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k20/led_sysdefs_arm_k20.h",
+      "sha256": "a5bcf0e564d191b4467dde3c53aa4988b21bbdd50345cf567262138941bd24c1"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k20/octows2811_controller.h",
+      "sha256": "db71c14d018039f51b0c1b2d21fc8bd4b2e3bf334076417f286faa8cbad22f28"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k20/smartmatrix_t3.h",
+      "sha256": "1504adb4b689ba6b4761a25360549677a0df900b98bedb81d96d6f72181c2982"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k20/ws2812serial_controller.h",
+      "sha256": "13be78fe33923a775d316aaf84cbd608ff6b94bb06b582a883712b5fe2d6affb"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k66/clockless_arm_k66.h",
+      "sha256": "59872346ab02dd6122b40d52b5dbf0ac2a7575242c0a196335d597e3abb537d8"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k66/clockless_block_arm_k66.h",
+      "sha256": "2ae84132d683011fb12e3d95c30355041b14eba6e66e641d9596b301f627bee3"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k66/fastled_arm_k66.h",
+      "sha256": "299b70f699d0b447f186db928dfb188112a701827afa5a5b761d38afb037fb43"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k66/fastpin_arm_k66.h",
+      "sha256": "3c5958d70cadd3456e678d9bdad169e35595ae3db618025f17a6d1375e40b77b"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k66/fastspi_arm_k66.h",
+      "sha256": "ac68b7997d1ef3a30a2d1a793b004bbf4071351932a37794ca228025bf986a30"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/k66/led_sysdefs_arm_k66.h",
+      "sha256": "6f60e84ebb383d91627b5fb8eb685d9df1a5f2245d87b26e350a0038da40dd2f"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/kl26/clockless_arm_kl26.h",
+      "sha256": "de922c46efa9d951ee2323c3c71219a33a316feaabe3d553d04818c542c40d60"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/kl26/fastled_arm_kl26.h",
+      "sha256": "9459675b762f423ee7a33a4fdd8a2533553aefe13837e0b7567a2333233022dd"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/kl26/fastpin_arm_kl26.h",
+      "sha256": "9c52859ec2803025b6eabe9c9344721a5fe2970a820234ce2dbcf8d2ac263b1a"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/kl26/fastspi_arm_kl26.h",
+      "sha256": "010dee7cd8d2a159ec826e017f1d0fc266296121f086978d80aec92801c2bf02"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/kl26/led_sysdefs_arm_kl26.h",
+      "sha256": "b9631d9d94674355887a7674208967eb3a3a37aff5fa594ec2f545d5dc1b36c2"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/mxrt1062/block_clockless_arm_mxrt1062.h",
+      "sha256": "640e74d1e0f0daed5629783b4e76f94f995cf326aeed6c885de68399db6ed651"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/mxrt1062/clockless_arm_mxrt1062.h",
+      "sha256": "1db83ea036addc51f06a6c1cc534d4cc6f338c214a83ee90504fe08f1790508a"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/mxrt1062/fastled_arm_mxrt1062.h",
+      "sha256": "39aab2e4298a4af5952665e75117117deee9ad2a1c8e08172b8e9002bd9e040a"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/mxrt1062/fastpin_arm_mxrt1062.h",
+      "sha256": "73feeb895401b2b4aef1b889cc75d789a379163bb7b084618eaf530d11bd0f89"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/mxrt1062/fastspi_arm_mxrt1062.h",
+      "sha256": "0fa4b1ca5ebb764c619913af14b5d7b66d563a376b38c9f17da7fb82be5b2017"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/mxrt1062/led_sysdefs_arm_mxrt1062.h",
+      "sha256": "7417f87237003ab02a6014f0772e3b06ab7841ee9a1ea183e7455682d7706389"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/mxrt1062/octows2811_controller.h",
+      "sha256": "d7b93508977439b508235f677e099c70e90ef93008839aa3d17e68783064efc9"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf51/clockless_arm_nrf51.h",
+      "sha256": "2fe1fb11a9c411269271461a0dc04a91a86519a08bad8a6eb6c65c12340788e3"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf51/fastled_arm_nrf51.h",
+      "sha256": "045e9c4e895c0f7bce745619019f032f231a8531b63d532dd1a3b2d615d758fe"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf51/fastpin_arm_nrf51.h",
+      "sha256": "bcccc187f11952ce5c04a0894c20885ca9f7887d4fdd409d8aaa0ccf4b8a7494"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf51/fastspi_arm_nrf51.h",
+      "sha256": "760d0d59bfcff1670607d8b8c68429e1772526d9ffa1ea95560e3d000ab5640b"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf51/led_sysdefs_arm_nrf51.h",
+      "sha256": "512ef6283979e125eefb0bfc674842e32709e49ceb9b89b4b5ece41ebb92b128"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf52/arbiter_nrf52.h",
+      "sha256": "857986968435266c04da5309c940c3984e1a65b9d46d694c5aa5e932be7d9b68"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf52/clockless_arm_nrf52.h",
+      "sha256": "cc5253e52baf35c1c8c5cf6daeb5119145211513005ca4e1a3362265fb5feb63"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf52/fastled_arm_nrf52.h",
+      "sha256": "afbec96e32fd6da8efbd0d118dbc830a38dfe0ea316d416f180280f718daaf21"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf52/fastpin_arm_nrf52_variants.h",
+      "sha256": "b16a5c11b70a2f6035478afcf0d836447869e9e6786284debf9be64211af6c84"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf52/fastpin_arm_nrf52.h",
+      "sha256": "b7f3a7d90e46b94b39710e4e88e4aa70c9b805983e4b9cc114bc3b9b92232caa"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf52/fastspi_arm_nrf52.h",
+      "sha256": "287b8c2b9a95a0e76b697d9f6c966ccfa717564d3be357a19af53bd82943f0a3"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/nrf52/led_sysdefs_arm_nrf52.h",
+      "sha256": "cd8c69b649dd826609a8a07a174e7da1b6f8499420e903a7789bae3d5f530b1e"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/sam/clockless_arm_sam.h",
+      "sha256": "483b6334967008caedf249a4b23e971533f3446b0b604bc0d794372fd9a64738"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/sam/clockless_block_arm_sam.h",
+      "sha256": "4dad8bbb7e6a37a3e6841ff030cd763ba617bc38dc64efc3b8f630a7940fdd61"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/sam/fastled_arm_sam.h",
+      "sha256": "0b7e2b9098dea2fdb3dd35b5364b976e2265d2c39952f415641bc8b3cbce8f95"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/sam/fastpin_arm_sam.h",
+      "sha256": "63f55510b344a99bb49893f722c44b0e49c03d9ff0205e9cff16de6211e28542"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/sam/fastspi_arm_sam.h",
+      "sha256": "a4544495b16104e7541c9231c3652bb03aa571698f59a71ae82ef0f9e3e552db"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/sam/led_sysdefs_arm_sam.h",
+      "sha256": "d69363d7f82c8249e1a81ffcbbd841205897c3a21a089c3e837ab986faf4ca26"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/stm32/clockless_arm_stm32.h",
+      "sha256": "76277f1f1a297b196b7ac50a14b72c63aa89823985b34e41152d981e67e08cd9"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/stm32/cm3_regs.h",
+      "sha256": "1a2f9107f1ac44cb6b80dc7aac22235f8257c88b131f88d56f6f98d5743b26d8"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/stm32/fastled_arm_stm32.h",
+      "sha256": "541cf66aad53a34d4f68af4b5cce3f8f071c9bfe348924dd53a167f20da1e2fe"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/stm32/fastpin_arm_stm32.h",
+      "sha256": "b859b5725aba00126841abc11090679c47121eb062679dfe7e8fcfcc1f251db0"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/arm/stm32/led_sysdefs_arm_stm32.h",
+      "sha256": "6f465b981aad7b69231537ccb7fa778f8960d43cb629febb96776b51f8a9599e"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/avr/clockless_trinket.h",
+      "sha256": "d423e866183bab26368147c427b27085302a444611bfa2b7b0e0c7cf7114ce5f"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/avr/fastled_avr.h",
+      "sha256": "94efe57480e9844fe73d9e3907a6ac0b7ffd05cffdf3c0db17cfae8d448950aa"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/avr/fastpin_avr.h",
+      "sha256": "2e6304888aaae8fcb7a203ecf423aad686192d5cc811bfdc9d0ee0407747389d"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/avr/fastspi_avr.h",
+      "sha256": "f550c42505c260803ce05baf51df3afcacb52fd14b68e9d5c15e8a6d63d06a27"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/avr/led_sysdefs_avr.h",
+      "sha256": "dde015883b8be23333ac488dc6daaca4cec65ee575d694fc99676c53b3583ce7"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/32/clockless_block_esp32.h",
+      "sha256": "1a82655261358235e34f5eaa164b4a44afa9fcaca8fe270ddcd8c40d414221dc"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/32/clockless_i2s_esp32.h",
+      "sha256": "129e8e18331194806be56d53409e49d6178910f058694acf4cf2e5c3474bc486"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/32/clockless_rmt_esp32.cpp",
+      "sha256": "0f1480aed728dd516714121bfb2c2ac89559caba545f41ff35207faf69319c04"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/32/clockless_rmt_esp32.h",
+      "sha256": "121e2798868f37897cdd90d1bbbc853eb40019f2a6751146d52fbcf6f5bfd6cb"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/32/fastled_esp32.h",
+      "sha256": "c31a3b52c085b44f598049e5fa31739da4ffddb38d55a774c38081bb48d923ee"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/32/fastpin_esp32.h",
+      "sha256": "87d77add34ead156e043a4a6c290597c83293c9fa84c6fba096a9bddf71dab89"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/32/fastspi_esp32.h",
+      "sha256": "bf5322699805adae59f90cc59f2a67f57a26d51c915e5e2e9d8600d25d23cdb3"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/32/led_sysdefs_esp32.h",
+      "sha256": "88a8ab32c8023760fe552ace3b2e47c60fdb187e4277538963abcbdbd4123d4d"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/8266/clockless_block_esp8266.h",
+      "sha256": "2abe047049123e5031cf7686c481fac6b89b2985f8558408cc61a74086cd650c"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/8266/clockless_esp8266.h",
+      "sha256": "c155854c67e59634ec99af7196e82b2ca74a95fcf477554812db232c946fdd5b"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/8266/fastled_esp8266.h",
+      "sha256": "87e021456e740e571d74c527b0769d8139fc4e992429435f1b2b932f7b1bc19a"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/8266/fastpin_esp8266.h",
+      "sha256": "423c1a94e3fa2246b397d355f8c5693916d365a6a3bf4e88008b1551a2bcba73"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/esp/8266/led_sysdefs_esp8266.h",
+      "sha256": "8477e545a6c0315420d602ca810b792861e21e985421c460ffceeedefda78b48"
+    },
+    {
+      "path": "libraries/FastLED/src/platforms/fastspi_ardunio_core.h",
+      "sha256": "e9df1be5931587175639d4770511a1f79991981f0c8047f3ac6f43654ed5ce7e"
+    },
+    {
+      "path": "libraries/FastLED/src/power_mgt.cpp",
+      "sha256": "7dc8f97062abb688095debaa2dc0cbf1d83a553291a850ddd8b49d5d6f95f77f"
+    },
+    {
+      "path": "libraries/FastLED/src/power_mgt.h",
+      "sha256": "5d6a3b6a7471a0ad9704deb42ac417bf455d8c5399e2737fa084821a80fd7291"
+    },
+    {
+      "path": "libraries/FastLED/src/wiring.cpp",
+      "sha256": "75a5b3c474eaf8cac12cfcf5a2c6288da70d9f22d7f23e5fe371489288668952"
+    },
+    {
+      "path": "libraries/FastLED/workspace.code-workspace",
+      "sha256": "acdbf8480cbb60770eb6a899c68dcad19a0e60bd1c5c56b28ee9d7fda8c0be31"
+    },
+    {
+      "path": "libraries/Servo/docs/api.md",
+      "sha256": "600e9773cb244858c971697c3401ec077d1b158beb987d2a8da3eb2ab98f1452"
+    },
+    {
+      "path": "libraries/Servo/docs/readme.md",
+      "sha256": "0916cee0fc96f61616a56708d1e40719fe33209a1fac1108f8a579c75e92547c"
+    },
+    {
+      "path": "libraries/Servo/examples/Knob/images/knob_BB.png",
+      "sha256": "fabab2e131fb2c7c32910cc5dda868995e118536b2ef6a290d010c63d5152933"
+    },
+    {
+      "path": "libraries/Servo/examples/Knob/images/knob_schem.png",
+      "sha256": "49a6999c7d706d0a91f12678237226e2dabfe3c9e6b92782e081da4339ca0730"
+    },
+    {
+      "path": "libraries/Servo/examples/Knob/Knob.ino",
+      "sha256": "faba7e31db9b8320b88b82c18fc09adcafbd70a8907e1472c8bdc5d8334c92a4"
+    },
+    {
+      "path": "libraries/Servo/examples/Knob/readme.md",
+      "sha256": "8c11dd38cbf87ec311d62af865f60a1ce7660bb2a7abfe65366c973f58b1a81a"
+    },
+    {
+      "path": "libraries/Servo/examples/Sweep/images/sweep_bb.png",
+      "sha256": "e4f06196d89b5b0fa00e7bbaa7ec758276c84847b8a7179e8e6c8f3b8acc7724"
+    },
+    {
+      "path": "libraries/Servo/examples/Sweep/images/sweep_schem.png",
+      "sha256": "a880b9af6e78a74e27cac1094cc0a9120ab05a6ee1f8c129c5810f24a05b58d3"
+    },
+    {
+      "path": "libraries/Servo/examples/Sweep/readme.md",
+      "sha256": "801bb16d561b99b0896287f10369c3464cb0de8eb138a6765b234f6043982919"
+    },
+    {
+      "path": "libraries/Servo/examples/Sweep/Sweep.ino",
+      "sha256": "575a5c3ef350486d292d60c74caa88d43f4dc4d4833dd7de964968917c6752da"
+    },
+    {
+      "path": "libraries/Servo/keywords.txt",
+      "sha256": "59ae2d3c412f136b04c2cb00019dc9f93ba0d56b409c1c3241adb48413e17d2e"
+    },
+    {
+      "path": "libraries/Servo/library.properties",
+      "sha256": "c24ffc7c26f147f167c8d6ccc4c9c1d2e80893fb001d3c3742b4d5d7ec840a96"
+    },
+    {
+      "path": "libraries/Servo/LICENSE.txt",
+      "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331"
+    },
+    {
+      "path": "libraries/Servo/README.adoc",
+      "sha256": "60118fb34521358959bb2c0ee968e144719e404406232eed4bab290f3fe2d395"
+    },
+    {
+      "path": "libraries/Servo/src/avr/Servo.cpp",
+      "sha256": "6b4477836ed3a00c3d77a5ad1e6a8636a4ee6cc905a9d93dfc60fca654860abb"
+    },
+    {
+      "path": "libraries/Servo/src/avr/ServoTimers.h",
+      "sha256": "c18bf7dfd3804d0862572b4e0ea3b4e73431916771ceb531c28e88ed36ec4461"
+    },
+    {
+      "path": "libraries/Servo/src/esp32/Servo.cpp",
+      "sha256": "5b91ccf65ba05b6b9ba4111ed04585b8f6c3f44f5c49ee7dd1667186e949f00f"
+    },
+    {
+      "path": "libraries/Servo/src/esp32/ServoTimers.h",
+      "sha256": "c6dd843a248d976fb320033bd13e5fb19fbadea98be0506f27810bed7004ffc8"
+    },
+    {
+      "path": "libraries/Servo/src/mbed/Servo.cpp",
+      "sha256": "9b0cd8b6ce8610cf30271cc64bc751394167c147f7a24198598d67d465d1c244"
+    },
+    {
+      "path": "libraries/Servo/src/mbed/ServoTimers.h",
+      "sha256": "a601289af8327e6bf55140e76f38f6487912254cbf7988a43e4ba728b8b9850b"
+    },
+    {
+      "path": "libraries/Servo/src/megaavr/Servo.cpp",
+      "sha256": "46a3b247b22d070be6bd1e089f07bf6c6288b729cd95b7ac8ce6268eeeb679a7"
+    },
+    {
+      "path": "libraries/Servo/src/megaavr/ServoTimers.h",
+      "sha256": "a62bb3292892e49d1f6d2bb61039fd04d102ecd47c26880598ce9b3fc6d8aaee"
+    },
+    {
+      "path": "libraries/Servo/src/nrf52/Servo.cpp",
+      "sha256": "0655e7165a6e0211d207118be2dec5d43cb4c3fe83845f7d4b3d02c9263a1ea7"
+    },
+    {
+      "path": "libraries/Servo/src/nrf52/ServoTimers.h",
+      "sha256": "b21ebb93e4112f65efe41cb85025795e780c6a3da262ed815b3311199e0b7f72"
+    },
+    {
+      "path": "libraries/Servo/src/renesas/Servo.cpp",
+      "sha256": "8512a2dfa345e7e2719707a523aec6378aa912aaceb9ae754a74ec7b069f3287"
+    },
+    {
+      "path": "libraries/Servo/src/renesas/ServoTimers.h",
+      "sha256": "4a467f2a963fdc1ba93f056e14e2c8e5a23d620ff67b1fbb9eed584a2785ceb4"
+    },
+    {
+      "path": "libraries/Servo/src/sam/Servo.cpp",
+      "sha256": "fca054e655d8689f090cac957378d1d1ae873ae0271a03ca88216484c6d0d250"
+    },
+    {
+      "path": "libraries/Servo/src/sam/ServoTimers.h",
+      "sha256": "a57c1963d74bb1e5183b49ffa55e7072e9334eff621e4095344572de5bf895eb"
+    },
+    {
+      "path": "libraries/Servo/src/samd/Servo.cpp",
+      "sha256": "df3f72da87fa054e7188b5c710a8a89402f3be7dfaa26a7ef96be94bce283fa4"
+    },
+    {
+      "path": "libraries/Servo/src/samd/ServoTimers.h",
+      "sha256": "4dc4cb22c655cd76a2fafe486d0c754c4e9857c37f8fc52b80236b53c144897c"
+    },
+    {
+      "path": "libraries/Servo/src/Servo.h",
+      "sha256": "baf96f1d65390abddb1c88121198480e4d993b7c9ef87657640082aa73944d7d"
+    },
+    {
+      "path": "libraries/Servo/src/stm32f4/Servo.cpp",
+      "sha256": "38faed85ad26229996db005097eb3272c428df27257995543292d8d50cf6b4e9"
+    },
+    {
+      "path": "libraries/Servo/src/stm32f4/ServoTimers.h",
+      "sha256": "c8e934ff558624c97a6623e94366a2dff6a495214591015ab69e44e292754b2f"
+    },
+    {
+      "path": "libraries/Servo/src/xmc/Servo.cpp",
+      "sha256": "db21c3e90988157ccedb5f73132f54ca89a269e029f0020e891dc005bbff9a4c"
+    },
+    {
+      "path": "libraries/Servo/src/xmc/ServoTimers.h",
+      "sha256": "58307e1798f219049b85753eff5c2a80b8966d50e621d8b41a266d29ea4ec50b"
+    },
+    {
+      "path": "libraries/Servo/src/zephyr/Servo.cpp",
+      "sha256": "9253fc7a467ed9baf2253051058618e8f87e0a313b092d0cce6d86984fb3b40e"
+    },
+    {
+      "path": "libraries/Servo/src/zephyr/ServoTimers.h",
+      "sha256": "13e47457f62bd3c911019077497f0917dc2347634704a72e7300cf40b686fe9d"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/ApplicationFunctionSet_xxx0.cpp",
+      "sha256": "e746ee251edb83696934ac20b357c80348070116b09dd44fe53a08ccd890453c"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/ApplicationFunctionSet_xxx0.h",
+      "sha256": "3b85d67821808759910b8a7256ca78a42cc7a7599cd27145b0d4b5f8de4ca4b3"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/ArduinoJson-v6.11.1.h",
+      "sha256": "a0fbc6b94c9d2b93f7d1f46390cf9611a3e8d5151762c8139ec55c8de3eeef03"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/DeviceDriverSet_xxx0.cpp",
+      "sha256": "a907bb6782590d1d98df78f845b1a70d5f0e8890cb4e7d5f215bf04297186793"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/DeviceDriverSet_xxx0.h",
+      "sha256": "29e004b1210ff1a3f75698ccd3b8e81ea309996ceef2623cc3df8d11554a77b5"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/I2Cdev.cpp",
+      "sha256": "0fc7057247e55cbba80008559c620e34abd762295ff1f98d00a32a6d3000e433"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/I2Cdev.h",
+      "sha256": "758bdcd455fb738eee02353f800dbd96a5fd05ab558b2ac190e10a9300d0845f"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/IRremote.cpp",
+      "sha256": "89d7513f36f97bf50239a96d1856068c87a9fe69e963a37dcd239dca8db5a638"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/IRremote.h",
+      "sha256": "3f00f61e9f544f6ba712c61b431bd34ac28b11508dc1c1d8e74ea75109d2dce4"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/IRremoteInt.h",
+      "sha256": "7763ec8946b6551efbc2f5a59291c45f6bfcc51041791751a2a38bb49dfceba9"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/MPU6050_getdata.cpp",
+      "sha256": "fb55525e5d775fd68cc260a67642f2ac4ea74d5e4e9bd1fd1e9dc61f7dbd1973"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/MPU6050_getdata.h",
+      "sha256": "072a03859d5a8b2b034fb746651f937fabd4c4345bde3c7391b438f1c1321515"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/MPU6050.cpp",
+      "sha256": "cc5de0d97606d0de271dc59c9fc3d6449c98c0775c5334bcb294f6cafa9c996d"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/MPU6050.h",
+      "sha256": "ed69eb4f09d676baaf9eb5e855aef3d257c87304ea19e5ae8b16a32ac7b29f3a"
+    },
+    {
+      "path": "src/SmartRobotCarV4.0_V1_20230201/SmartRobotCarV4.0_V1_20230201.ino",
+      "sha256": "96eb7384f6df735e50d305127b49849acd20eefd9d54f0c045e6a2f20c4531a5"
+    }
+  ]
+}
